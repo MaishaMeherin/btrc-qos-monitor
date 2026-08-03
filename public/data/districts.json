@@ -1,0 +1,450 @@
+[
+  {
+    "name": "Bagerhat",
+    "avg_download_mbps": 64.8,
+    "sample_count": 62,
+    "health": "Fair",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Bandarban",
+    "avg_download_mbps": 25.8,
+    "sample_count": 8,
+    "health": "Poor",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Barguna",
+    "avg_download_mbps": 58.6,
+    "sample_count": 35,
+    "health": "Fair",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Barisal",
+    "avg_download_mbps": 55.3,
+    "sample_count": 27,
+    "health": "Fair",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Bhola",
+    "avg_download_mbps": 23.9,
+    "sample_count": 8,
+    "health": "Poor",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Bogra",
+    "avg_download_mbps": 65,
+    "sample_count": 27,
+    "health": "Fair",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Brahamanbaria",
+    "avg_download_mbps": 66.2,
+    "sample_count": 44,
+    "health": "Fair",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Chandpur",
+    "avg_download_mbps": 62.5,
+    "sample_count": 54,
+    "health": "Fair",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Chittagong",
+    "avg_download_mbps": 94,
+    "sample_count": 302,
+    "health": "Good",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Chuadanga",
+    "avg_download_mbps": 63.1,
+    "sample_count": 47,
+    "health": "Fair",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Comilla",
+    "avg_download_mbps": 60.4,
+    "sample_count": 62,
+    "health": "Fair",
+    "lit_for_demo_user": true
+  },
+  {
+    "name": "Cox's Bazar",
+    "avg_download_mbps": 60.6,
+    "sample_count": 33,
+    "health": "Fair",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Dhaka",
+    "avg_download_mbps": 94.9,
+    "sample_count": 190,
+    "health": "Good",
+    "lit_for_demo_user": true
+  },
+  {
+    "name": "Dinajpur",
+    "avg_download_mbps": 59.4,
+    "sample_count": 50,
+    "health": "Fair",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Faridpur",
+    "avg_download_mbps": 59.9,
+    "sample_count": 18,
+    "health": "Fair",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Feni",
+    "avg_download_mbps": 58.5,
+    "sample_count": 61,
+    "health": "Fair",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Gaibandha",
+    "avg_download_mbps": 61.7,
+    "sample_count": 37,
+    "health": "Fair",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Gazipur",
+    "avg_download_mbps": 95.4,
+    "sample_count": 274,
+    "health": "Good",
+    "lit_for_demo_user": true
+  },
+  {
+    "name": "Gopalganj",
+    "avg_download_mbps": 62.2,
+    "sample_count": 52,
+    "health": "Fair",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Habiganj",
+    "avg_download_mbps": 58,
+    "sample_count": 34,
+    "health": "Fair",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Jamalpur",
+    "avg_download_mbps": 58.6,
+    "sample_count": 32,
+    "health": "Fair",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Jessore",
+    "avg_download_mbps": 58.6,
+    "sample_count": 64,
+    "health": "Fair",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Jhalokati",
+    "avg_download_mbps": 28.6,
+    "sample_count": 9,
+    "health": "Poor",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Jhenaidah",
+    "avg_download_mbps": 61.6,
+    "sample_count": 59,
+    "health": "Fair",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Joypurhat",
+    "avg_download_mbps": 65.1,
+    "sample_count": 45,
+    "health": "Fair",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Khagrachhari",
+    "avg_download_mbps": 22.2,
+    "sample_count": 3,
+    "health": "Poor",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Khulna",
+    "avg_download_mbps": 94.2,
+    "sample_count": 249,
+    "health": "Good",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Kishoreganj",
+    "avg_download_mbps": 64.3,
+    "sample_count": 45,
+    "health": "Fair",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Kurigram",
+    "avg_download_mbps": 33.1,
+    "sample_count": 5,
+    "health": "Poor",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Kushtia",
+    "avg_download_mbps": 58.2,
+    "sample_count": 56,
+    "health": "Fair",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Lakshmipur",
+    "avg_download_mbps": 64.3,
+    "sample_count": 29,
+    "health": "Fair",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Lalmonirhat",
+    "avg_download_mbps": 19.7,
+    "sample_count": 3,
+    "health": "Poor",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Madaripur",
+    "avg_download_mbps": 57.8,
+    "sample_count": 45,
+    "health": "Fair",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Magura",
+    "avg_download_mbps": 72.7,
+    "sample_count": 15,
+    "health": "Fair",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Manikganj",
+    "avg_download_mbps": 67.9,
+    "sample_count": 15,
+    "health": "Fair",
+    "lit_for_demo_user": true
+  },
+  {
+    "name": "Maulvibazar",
+    "avg_download_mbps": 56.4,
+    "sample_count": 23,
+    "health": "Fair",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Meherpur",
+    "avg_download_mbps": 31.8,
+    "sample_count": 10,
+    "health": "Poor",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Munshiganj",
+    "avg_download_mbps": 62.8,
+    "sample_count": 40,
+    "health": "Fair",
+    "lit_for_demo_user": true
+  },
+  {
+    "name": "Mymensingh",
+    "avg_download_mbps": 55.6,
+    "sample_count": 43,
+    "health": "Fair",
+    "lit_for_demo_user": true
+  },
+  {
+    "name": "Naogaon",
+    "avg_download_mbps": 63,
+    "sample_count": 39,
+    "health": "Fair",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Narail",
+    "avg_download_mbps": 64,
+    "sample_count": 25,
+    "health": "Fair",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Narayanganj",
+    "avg_download_mbps": 92,
+    "sample_count": 316,
+    "health": "Good",
+    "lit_for_demo_user": true
+  },
+  {
+    "name": "Narsingdi",
+    "avg_download_mbps": 60.2,
+    "sample_count": 38,
+    "health": "Fair",
+    "lit_for_demo_user": true
+  },
+  {
+    "name": "Natore",
+    "avg_download_mbps": 60.8,
+    "sample_count": 29,
+    "health": "Fair",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Nawabganj",
+    "avg_download_mbps": 63.3,
+    "sample_count": 47,
+    "health": "Fair",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Netrakona",
+    "avg_download_mbps": 61.7,
+    "sample_count": 42,
+    "health": "Fair",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Nilphamari",
+    "avg_download_mbps": 29.3,
+    "sample_count": 7,
+    "health": "Poor",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Noakhali",
+    "avg_download_mbps": 58.4,
+    "sample_count": 44,
+    "health": "Fair",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Pabna",
+    "avg_download_mbps": 60.9,
+    "sample_count": 42,
+    "health": "Fair",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Panchagarh",
+    "avg_download_mbps": 64.7,
+    "sample_count": 49,
+    "health": "Fair",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Patuakhali",
+    "avg_download_mbps": 23.5,
+    "sample_count": 6,
+    "health": "Poor",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Pirojpur",
+    "avg_download_mbps": 54.5,
+    "sample_count": 33,
+    "health": "Fair",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Rajbari",
+    "avg_download_mbps": 62.8,
+    "sample_count": 53,
+    "health": "Fair",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Rajshahi",
+    "avg_download_mbps": 65.9,
+    "sample_count": 31,
+    "health": "Fair",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Rangamati",
+    "avg_download_mbps": 30.1,
+    "sample_count": 3,
+    "health": "Poor",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Rangpur",
+    "avg_download_mbps": 58.1,
+    "sample_count": 37,
+    "health": "Fair",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Satkhira",
+    "avg_download_mbps": 61.5,
+    "sample_count": 20,
+    "health": "Fair",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Shariatpur",
+    "avg_download_mbps": 63.9,
+    "sample_count": 63,
+    "health": "Fair",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Sherpur",
+    "avg_download_mbps": 61.3,
+    "sample_count": 59,
+    "health": "Fair",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Sirajganj",
+    "avg_download_mbps": 58.2,
+    "sample_count": 40,
+    "health": "Fair",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Sunamganj",
+    "avg_download_mbps": 28.2,
+    "sample_count": 3,
+    "health": "Poor",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Sylhet",
+    "avg_download_mbps": 64.7,
+    "sample_count": 64,
+    "health": "Fair",
+    "lit_for_demo_user": false
+  },
+  {
+    "name": "Tangail",
+    "avg_download_mbps": 62.4,
+    "sample_count": 62,
+    "health": "Fair",
+    "lit_for_demo_user": true
+  },
+  {
+    "name": "Thakurgaon",
+    "avg_download_mbps": 60.9,
+    "sample_count": 36,
+    "health": "Fair",
+    "lit_for_demo_user": false
+  }
+]

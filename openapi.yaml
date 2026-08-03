@@ -1,0 +1,895 @@
+openapi: 3.1.0
+info:
+  title: BTRC QoS Monitor API (Proposed)
+  version: 1.0.0-draft
+  description: >-
+    FORWARD-LOOKING / NOT IMPLEMENTED. Companion to srs.md and api-design.md.
+    The qos-app codebase is today a client-only React prototype with no backend1
+    and localStorage-only persistence. This spec proposes the REST contract a
+    production build would need. Every schema is derived from existing client
+    data structures (src/data/seed.js, src/data/isps.js, src/data/reliability.js,
+    src/App.jsx). Treat as a design target, not a record of current source.
+  contact:
+    name: BTRC QoS Monitor
+  license:
+    name: Proprietary
+
+servers:
+  - url: https://api.qos.btrc.gov.bd/api/v1
+    description: Proposed production base URL
+
+tags:
+  - name: auth
+    description: OTP signup + JWT session (NEW — no auth exists today)
+  - name: users
+    description: Current user, consents, stats (derived from User object)
+  - name: catalog
+    description: ISP / package / district catalogs (derived from isps.js, districts.js)
+  - name: tests
+    description: Core QoS test submission + history (derived from finishTest / HISTORY_SEED)
+  - name: missions
+  - name: badges
+  - name: leaderboard
+  - name: coverage
+  - name: complaints
+    description: Realizes the currently dead submit button (Complaint.jsx:50)
+  - name: notifications
+
+security:
+  - bearerAuth: []
+
+paths:
+  # ---------------------------------------------------------------- auth
+  /auth/otp/request:
+    post:
+      tags: [auth]
+      summary: Request an OTP challenge
+      security: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: { $ref: '#/components/schemas/OtpRequest' }
+      responses:
+        '200':
+          description: Challenge issued
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/OtpChallenge' }
+        '422': { $ref: '#/components/responses/ValidationError' }
+        '429': { $ref: '#/components/responses/RateLimited' }
+  /auth/otp/verify:
+    post:
+      tags: [auth]
+      summary: Verify OTP and obtain tokens
+      security: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: { $ref: '#/components/schemas/OtpVerify' }
+      responses:
+        '200':
+          description: Authenticated
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/AuthSession' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+        '410':
+          description: Challenge expired
+  /auth/refresh:
+    post:
+      tags: [auth]
+      summary: Rotate tokens
+      security: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [refreshToken]
+              properties:
+                refreshToken: { type: string }
+      responses:
+        '200':
+          description: New tokens
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Tokens' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+  /auth/logout:
+    post:
+      tags: [auth]
+      summary: Invalidate session
+      responses:
+        '204': { description: Logged out }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+
+  # ---------------------------------------------------------------- users
+  /users/me:
+    get:
+      tags: [users]
+      summary: Get current user
+      responses:
+        '200':
+          description: Current user
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/User' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+    patch:
+      tags: [users]
+      summary: Update profile preferences
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: { $ref: '#/components/schemas/UserPrefsPatch' }
+      responses:
+        '200':
+          description: Updated user
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/User' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+        '422': { $ref: '#/components/responses/ValidationError' }
+    delete:
+      tags: [users]
+      summary: Erase account and all data
+      responses:
+        '204': { description: Account erased }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+  /users/me/consents:
+    get:
+      tags: [users]
+      summary: Get consent flags
+      responses:
+        '200':
+          description: Consents
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Consents' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+    put:
+      tags: [users]
+      summary: Replace consent flags
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: { $ref: '#/components/schemas/Consents' }
+      responses:
+        '200':
+          description: Updated consents
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Consents' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+        '422': { $ref: '#/components/responses/ValidationError' }
+  /users/me/stats:
+    get:
+      tags: [users]
+      summary: Get progression stats (server-computed)
+      responses:
+        '200':
+          description: Stats
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/UserStats' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+
+  # ---------------------------------------------------------------- catalog
+  /catalog/isps:
+    get:
+      tags: [catalog]
+      summary: List ISPs
+      security: []
+      responses:
+        '200':
+          description: ISP list
+          content:
+            application/json:
+              schema:
+                type: array
+                items: { $ref: '#/components/schemas/Isp' }
+  /catalog/isps/{code}/packages:
+    get:
+      tags: [catalog]
+      summary: List packages for an ISP
+      security: []
+      parameters:
+        - name: code
+          in: path
+          required: true
+          schema: { type: string, example: DI }
+      responses:
+        '200':
+          description: Package list
+          content:
+            application/json:
+              schema:
+                type: array
+                items: { $ref: '#/components/schemas/Package' }
+        '404': { $ref: '#/components/responses/NotFound' }
+  /catalog/districts:
+    get:
+      tags: [catalog]
+      summary: List districts
+      security: []
+      parameters:
+        - name: division
+          in: query
+          schema: { type: string }
+      responses:
+        '200':
+          description: District list
+          content:
+            application/json:
+              schema:
+                type: array
+                items: { $ref: '#/components/schemas/District' }
+
+  # ---------------------------------------------------------------- tests
+  /tests/config:
+    get:
+      tags: [tests]
+      summary: Get test stage timings and XP rules
+      parameters:
+        - name: mode
+          in: query
+          schema: { type: string, enum: [quick, full], default: full }
+      responses:
+        '200':
+          description: Test config
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/TestConfig' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+  /tests:
+    get:
+      tags: [tests]
+      summary: List test history (newest first)
+      parameters:
+        - { name: limit, in: query, schema: { type: integer, default: 20, maximum: 100 } }
+        - { name: cursor, in: query, schema: { type: string } }
+        - { name: district, in: query, schema: { type: string } }
+        - { name: isp, in: query, schema: { type: string } }
+        - { name: flagged, in: query, schema: { type: boolean } }
+      responses:
+        '200':
+          description: Paged history
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items: { $ref: '#/components/schemas/HistoryEntry' }
+                  next_cursor: { type: [string, 'null'] }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+    post:
+      tags: [tests]
+      summary: Submit a QoS measurement
+      parameters:
+        - name: Idempotency-Key
+          in: header
+          required: true
+          schema: { type: string, format: uuid }
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: { $ref: '#/components/schemas/TestSubmission' }
+      responses:
+        '201':
+          description: Recorded (verdict, flag, rewards computed server-side)
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  entry: { $ref: '#/components/schemas/HistoryEntry' }
+                  rewards: { $ref: '#/components/schemas/RewardDelta' }
+        '202':
+          description: Accepted; corroboration pending
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  entry: { $ref: '#/components/schemas/HistoryEntry' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+        '409': { $ref: '#/components/responses/Conflict' }
+        '422': { $ref: '#/components/responses/ValidationError' }
+  /tests/{id}:
+    get:
+      tags: [tests]
+      summary: Get one test
+      parameters:
+        - { name: id, in: path, required: true, schema: { type: string } }
+      responses:
+        '200':
+          description: Test entry
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/HistoryEntry' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+        '404': { $ref: '#/components/responses/NotFound' }
+  /tests/{id}/submit:
+    post:
+      tags: [tests]
+      summary: Promote a partial/unsubmitted test to evidence
+      parameters:
+        - { name: id, in: path, required: true, schema: { type: string } }
+      responses:
+        '202':
+          description: Submission accepted
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  submissionId: { type: string, example: BD2026-4471 }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+        '404': { $ref: '#/components/responses/NotFound' }
+        '409': { $ref: '#/components/responses/Conflict' }
+
+  # ---------------------------------------------------------------- missions
+  /missions:
+    get:
+      tags: [missions]
+      summary: List missions with per-user progress
+      parameters:
+        - name: kind
+          in: query
+          schema: { type: string, enum: [daily, weekly, milestone] }
+      responses:
+        '200':
+          description: Missions
+          content:
+            application/json:
+              schema:
+                type: array
+                items: { $ref: '#/components/schemas/Mission' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+  /missions/{id}/claim:
+    post:
+      tags: [missions]
+      summary: Claim a completed mission reward
+      parameters:
+        - { name: id, in: path, required: true, schema: { type: string } }
+      responses:
+        '200':
+          description: Reward granted
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  xpGained: { type: integer }
+                  newXp: { type: integer }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+        '409': { $ref: '#/components/responses/Conflict' }
+
+  # ---------------------------------------------------------------- badges
+  /badges:
+    get:
+      tags: [badges]
+      summary: List badges with earned state
+      responses:
+        '200':
+          description: Badges
+          content:
+            application/json:
+              schema:
+                type: array
+                items: { $ref: '#/components/schemas/Badge' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+  /badges/{id}:
+    get:
+      tags: [badges]
+      summary: Get one badge
+      parameters:
+        - { name: id, in: path, required: true, schema: { type: string } }
+      responses:
+        '200':
+          description: Badge
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Badge' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+        '404': { $ref: '#/components/responses/NotFound' }
+
+  # ---------------------------------------------------------------- leaderboard
+  /leaderboard:
+    get:
+      tags: [leaderboard]
+      summary: Get leaderboard by scope
+      parameters:
+        - { name: scope, in: query, schema: { type: string, enum: [district, division, national], default: district } }
+        - { name: district, in: query, schema: { type: string } }
+        - { name: division, in: query, schema: { type: string } }
+        - { name: limit, in: query, schema: { type: integer, default: 20, maximum: 100 } }
+        - { name: cursor, in: query, schema: { type: string } }
+      responses:
+        '200':
+          description: Leaderboard page
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items: { $ref: '#/components/schemas/LeaderboardRow' }
+                  me: { $ref: '#/components/schemas/LeaderboardRow' }
+                  next_cursor: { type: [string, 'null'] }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+
+  # ---------------------------------------------------------------- coverage
+  /coverage/districts:
+    get:
+      tags: [coverage]
+      summary: District coverage for the map
+      parameters:
+        - name: division
+          in: query
+          schema: { type: string }
+      responses:
+        '200':
+          description: Coverage dots
+          content:
+            application/json:
+              schema:
+                type: array
+                items: { $ref: '#/components/schemas/CoverageDot' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+
+  # ---------------------------------------------------------------- complaints
+  /complaints:
+    get:
+      tags: [complaints]
+      summary: List my complaints
+      parameters:
+        - name: status
+          in: query
+          schema: { type: string, enum: [submitted, accepted, rejected, resolved] }
+      responses:
+        '200':
+          description: Complaints
+          content:
+            application/json:
+              schema:
+                type: array
+                items: { $ref: '#/components/schemas/Complaint' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+    post:
+      tags: [complaints]
+      summary: File a complaint (realizes Complaint.jsx dead submit button)
+      parameters:
+        - name: Idempotency-Key
+          in: header
+          required: true
+          schema: { type: string, format: uuid }
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: { $ref: '#/components/schemas/ComplaintCreate' }
+      responses:
+        '201':
+          description: Filed
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Complaint' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+        '422': { $ref: '#/components/responses/ValidationError' }
+  /complaints/{id}:
+    get:
+      tags: [complaints]
+      summary: Get one complaint with linked evidence
+      parameters:
+        - { name: id, in: path, required: true, schema: { type: string } }
+      responses:
+        '200':
+          description: Complaint
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Complaint' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+        '404': { $ref: '#/components/responses/NotFound' }
+
+  # ---------------------------------------------------------------- notifications
+  /notifications:
+    get:
+      tags: [notifications]
+      summary: List notifications (inbox)
+      parameters:
+        - { name: unreadOnly, in: query, schema: { type: boolean } }
+        - { name: limit, in: query, schema: { type: integer, default: 20, maximum: 100 } }
+        - { name: cursor, in: query, schema: { type: string } }
+      responses:
+        '200':
+          description: Inbox page
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items: { $ref: '#/components/schemas/Notification' }
+                  unreadCount: { type: integer }
+                  next_cursor: { type: [string, 'null'] }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+  /notifications/read:
+    post:
+      tags: [notifications]
+      summary: Mark notifications read (matches openInbox mark-all)
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              oneOf:
+                - type: object
+                  required: [ids]
+                  properties:
+                    ids:
+                      type: array
+                      items: { type: string }
+                - type: object
+                  required: [all]
+                  properties:
+                    all: { type: boolean }
+      responses:
+        '204': { description: Marked read }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+
+  responses:
+    Unauthorized:
+      description: Missing or invalid token
+      content:
+        application/problem+json:
+          schema: { $ref: '#/components/schemas/Problem' }
+    NotFound:
+      description: Resource not found
+      content:
+        application/problem+json:
+          schema: { $ref: '#/components/schemas/Problem' }
+    Conflict:
+      description: Duplicate / idempotency replay / illegal state
+      content:
+        application/problem+json:
+          schema: { $ref: '#/components/schemas/Problem' }
+    ValidationError:
+      description: Request failed validation
+      content:
+        application/problem+json:
+          schema: { $ref: '#/components/schemas/Problem' }
+    RateLimited:
+      description: Too many requests
+      headers:
+        Retry-After:
+          schema: { type: integer }
+      content:
+        application/problem+json:
+          schema: { $ref: '#/components/schemas/Problem' }
+
+  schemas:
+    Problem:
+      type: object
+      description: RFC 9457 problem detail
+      properties:
+        type: { type: string, default: 'about:blank' }
+        title: { type: string }
+        status: { type: integer }
+        detail: { type: string }
+        errors:
+          type: object
+          additionalProperties: { type: string }
+
+    LocalizedText:
+      type: object
+      description: Server-localized string pair (replaces *_en/*_bn fields)
+      properties:
+        en: { type: string }
+        bn: { type: string }
+
+    OtpRequest:
+      type: object
+      required: [phone]
+      properties:
+        phone: { type: string, example: '+8801712345678' }
+    OtpChallenge:
+      type: object
+      properties:
+        challengeId: { type: string }
+        expiresIn: { type: integer, example: 300 }
+    OtpVerify:
+      type: object
+      required: [challengeId, code]
+      properties:
+        challengeId: { type: string }
+        code: { type: string, example: '123456' }
+    Tokens:
+      type: object
+      properties:
+        accessToken: { type: string }
+        refreshToken: { type: string }
+    AuthSession:
+      allOf:
+        - $ref: '#/components/schemas/Tokens'
+        - type: object
+          properties:
+            user: { $ref: '#/components/schemas/User' }
+
+    User:
+      type: object
+      description: Derived from DEFAULT_USER (seed.js:1-16). Progression fields server-computed.
+      properties:
+        id: { type: string, example: usr_abc123 }
+        displayName: { type: string, example: 'Anon · DI' }
+        publicProfile: { type: boolean, example: false }
+        level: { type: integer, example: 3 }
+        levelTitle: { type: string, example: 'Signal Scout' }
+        xp: { type: integer, example: 450 }
+        xpToNext: { type: integer, example: 600 }
+        streakDays: { type: integer, example: 7 }
+        testsThisMonth: { type: integer, example: 23 }
+        totalTests: { type: integer, example: 87 }
+        districtsCovered: { type: integer, example: 5 }
+        ispsTested: { type: integer, example: 3 }
+        districtRank: { type: integer, example: 18 }
+        totalDistricts: { type: integer, example: 64 }
+        inDistrictRank: { type: integer, example: 3 }
+        lang: { type: string, enum: [en, bn] }
+        theme: { type: string, enum: [light, dark] }
+        notifPref: { type: string, example: issues }
+    UserPrefsPatch:
+      type: object
+      properties:
+        displayName: { type: string }
+        publicProfile: { type: boolean }
+        lang: { type: string, enum: [en, bn] }
+        theme: { type: string, enum: [light, dark] }
+        notifPref: { type: string }
+    Consents:
+      type: object
+      required: [loc, anon, device]
+      properties:
+        loc: { type: boolean }
+        anon: { type: boolean }
+        device: { type: boolean }
+    UserStats:
+      type: object
+      properties:
+        level: { type: integer }
+        xp: { type: integer }
+        xpToNext: { type: integer }
+        streakDays: { type: integer }
+        totalTests: { type: integer }
+        testsThisMonth: { type: integer }
+        districtsCovered: { type: integer }
+        ispsTested: { type: integer }
+        districtRank: { type: integer }
+        inDistrictRank: { type: integer }
+
+    Isp:
+      type: object
+      description: Derived from ISPS (isps.js:1-9)
+      properties:
+        code: { type: string, example: DI }
+        name: { type: string, example: Dot Internet }
+        kind: { type: string, example: 'Broadband · Dhaka' }
+    Package:
+      type: object
+      description: Derived from PACKAGES_BY_ISP (isps.js:11-45)
+      properties:
+        id: { type: string, example: di-50 }
+        name: { type: string, example: Home Standard }
+        down: { type: number, example: 50 }
+        up: { type: number, example: 10 }
+        price: { type: integer, example: 1200 }
+    District:
+      type: object
+      properties:
+        division: { type: string, example: Dhaka }
+        district: { type: string, example: Dhanmondi }
+
+    TestConfig:
+      type: object
+      description: Derived from runTest step tables and XP rules (App.jsx:179-312)
+      properties:
+        mode: { type: string, enum: [quick, full] }
+        stages:
+          type: array
+          items: { type: string, example: stability }
+        steps:
+          type: array
+          items:
+            type: object
+            properties:
+              after: { type: integer, description: ms offset }
+              pct: { type: integer }
+              lat: { type: number }
+              down: { type: number }
+              up: { type: number }
+              jitter: { type: number }
+              loss: { type: number }
+        finalDelayMs: { type: integer, example: 11000 }
+        xpRules:
+          type: object
+          properties:
+            base: { type: integer, description: 30 full / 10 quick }
+            gpsBonus: { type: integer, example: 5 }
+            flaggedBonus: { type: integer, example: 50 }
+            partial: { type: integer, example: 5 }
+
+    TestSubmission:
+      type: object
+      required: [mode, ispCode, district, locationSource, networkType, metrics, clientTimestamp]
+      properties:
+        mode: { type: string, enum: [quick, full] }
+        ispCode: { type: string, example: DI }
+        pkgId: { type: string, example: di-50 }
+        district: { type: string, example: Dhanmondi }
+        locationSource: { type: string, enum: [GPS, Manual] }
+        networkType: { type: string, enum: ['4G', WiFi] }
+        partial: { type: boolean, default: false }
+        clientTimestamp: { type: string, format: date-time }
+        metrics:
+          type: object
+          required: [down, up, lat, jitter, loss]
+          properties:
+            down: { type: number, example: 46.4 }
+            up: { type: number, example: 10.9 }
+            lat: { type: number, example: 24 }
+            jitter: { type: number, example: 3 }
+            loss: { type: number, example: 0.1 }
+            dns: { type: [number, 'null'], example: 86 }
+            webLoad: { type: [number, 'null'], example: 1.4 }
+
+    HistoryEntry:
+      type: object
+      description: Derived from finishTest / HISTORY_SEED (App.jsx:278-301, seed.js:116-132)
+      properties:
+        id: { type: string, example: h_abc }
+        isoDate: { type: string, format: date-time }
+        isp: { type: string, example: Dot Internet }
+        advertisedDown: { type: number, example: 50 }
+        advertisedUp: { type: number, example: 10 }
+        down: { type: number, example: 46.4 }
+        up: { type: number, example: 10.9 }
+        lat: { type: number, example: 24 }
+        jitter: { type: number, example: 3 }
+        loss: { type: number, example: 0.1 }
+        dns: { type: [number, 'null'], example: 86 }
+        webLoad: { type: [number, 'null'], example: 1.4 }
+        delivered: { type: integer, description: 'server: round(down/advertisedDown*100)', example: 93 }
+        district: { type: string, example: Dhanmondi }
+        networkType: { type: string, enum: ['4G', WiFi] }
+        locationSource: { type: string, enum: [GPS, Manual] }
+        submitted: { type: boolean }
+        submissionId: { type: [string, 'null'], example: BD2026-4471 }
+        flagged: { type: boolean, description: 'server rule: delivered < 70 && !partial' }
+        verdict: { type: string, enum: [excellent, good, poor, unstable] }
+        mode: { type: string, enum: [quick, full] }
+        partial: { type: boolean }
+
+    RewardDelta:
+      type: object
+      description: Derived from XP/level logic (App.jsx:310-316, 155-161)
+      properties:
+        xpGained: { type: integer, example: 35 }
+        newXp: { type: integer, example: 485 }
+        newLevel: { type: integer, example: 3 }
+        leveledUp: { type: boolean, example: false }
+        badgesUnlocked:
+          type: array
+          items: { $ref: '#/components/schemas/Badge' }
+        missionsAdvanced:
+          type: array
+          items:
+            type: object
+            properties:
+              id: { type: string }
+              progress: { type: integer }
+              completed: { type: boolean }
+        impact: { $ref: '#/components/schemas/LocalizedText' }
+
+    Mission:
+      type: object
+      description: Derived from MISSIONS (seed.js:44-50). title_en/bn -> title; expires -> expiresAt
+      properties:
+        id: { type: string, example: w1 }
+        kind: { type: string, enum: [daily, weekly, milestone] }
+        title: { $ref: '#/components/schemas/LocalizedText' }
+        xp: { type: integer, example: 150 }
+        progress: { type: integer, example: 3 }
+        target: { type: integer, example: 5 }
+        expiresAt: { type: [string, 'null'], format: date-time }
+
+    Badge:
+      type: object
+      description: Derived from BADGES (seed.js:52-103)
+      properties:
+        id: { type: string, example: b5 }
+        name: { $ref: '#/components/schemas/LocalizedText' }
+        tier: { type: string, enum: [bronze, silver, gold, platinum] }
+        earned: { type: boolean }
+        desc: { $ref: '#/components/schemas/LocalizedText' }
+        story: { $ref: '#/components/schemas/LocalizedText' }
+        metric: { type: string, example: nightTests }
+        target: { type: integer, example: 20 }
+        current: { type: integer, example: 22 }
+        unit: { $ref: '#/components/schemas/LocalizedText' }
+        earnedOn: { type: [string, 'null'], format: date }
+
+    LeaderboardRow:
+      type: object
+      description: Derived from LEADERBOARD (seed.js:105-114)
+      properties:
+        rank: { type: integer, example: 3 }
+        handle: { type: string, example: 'Anon · DI' }
+        district: { type: string, example: Dhanmondi }
+        tests: { type: integer, example: 87 }
+        xp: { type: integer, example: 450 }
+        me: { type: boolean, example: true }
+
+    CoverageDot:
+      type: object
+      description: Derived from BD_DOTS (districts.js). tested/testedByMe become real aggregates
+      properties:
+        division: { type: string, example: Dhaka }
+        district: { type: string, example: Dhanmondi }
+        x: { type: number, example: 218 }
+        y: { type: number, example: 265 }
+        tested: { type: boolean }
+        testedByMe: { type: boolean }
+        testCount: { type: integer }
+
+    ComplaintCreate:
+      type: object
+      required: [ispCode, reason, description]
+      description: reason matches Complaint.jsx:28 buttons
+      properties:
+        ispCode: { type: string, example: DI }
+        reason: { type: string, enum: [slow, outage, billing, other] }
+        description: { type: string }
+        evidenceTestIds:
+          type: array
+          items: { type: string }
+    Complaint:
+      type: object
+      properties:
+        id: { type: string, example: C-2026-0418 }
+        ispCode: { type: string, example: DI }
+        reason: { type: string, enum: [slow, outage, billing, other] }
+        description: { type: string }
+        status: { type: string, enum: [submitted, accepted, rejected, resolved] }
+        evidenceTestIds:
+          type: array
+          items: { type: string }
+        createdAt: { type: string, format: date-time }
+
+    Notification:
+      type: object
+      description: Derived from NOTIFICATIONS_SEED (seed.js:134-177)
+      properties:
+        id: { type: string, example: n2 }
+        kind: { type: string, enum: [streak, regulatory, achievement, civic, mission, test] }
+        createdAt: { type: string, format: date-time }
+        read: { type: boolean }
+        title: { $ref: '#/components/schemas/LocalizedText' }
+        body: { $ref: '#/components/schemas/LocalizedText' }
+        deepLink: { type: string, example: history }

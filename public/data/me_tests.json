@@ -1,0 +1,3248 @@
+[
+  {
+    "lat": 23.08315,
+    "lng": 91.12596,
+    "download_mbps": 72.6,
+    "created_at": "2026-05-31T19:21:00Z"
+  },
+  {
+    "lat": 23.78092,
+    "lng": 91.06779,
+    "download_mbps": 47.1,
+    "created_at": "2026-05-31T16:30:00Z"
+  },
+  {
+    "lat": 23.67658,
+    "lng": 91.35467,
+    "download_mbps": 80.9,
+    "created_at": "2026-05-31T15:37:00Z"
+  },
+  {
+    "lat": 23.27439,
+    "lng": 91.1968,
+    "download_mbps": 78.6,
+    "created_at": "2026-05-31T13:12:00Z"
+  },
+  {
+    "lat": 23.34806,
+    "lng": 90.71776,
+    "download_mbps": 69.5,
+    "created_at": "2026-05-31T09:51:00Z"
+  },
+  {
+    "lat": 23.29886,
+    "lng": 90.83801,
+    "download_mbps": 75.3,
+    "created_at": "2026-05-31T06:08:00Z"
+  },
+  {
+    "lat": 23.4105,
+    "lng": 90.98332,
+    "download_mbps": 61.9,
+    "created_at": "2026-05-31T02:09:00Z"
+  },
+  {
+    "lat": 23.22328,
+    "lng": 91.22904,
+    "download_mbps": 93.3,
+    "created_at": "2026-05-31T01:00:00Z"
+  },
+  {
+    "lat": 23.13817,
+    "lng": 90.72257,
+    "download_mbps": 79.1,
+    "created_at": "2026-05-30T21:27:00Z"
+  },
+  {
+    "lat": 23.56405,
+    "lng": 91.09736,
+    "download_mbps": 60.7,
+    "created_at": "2026-05-30T17:52:00Z"
+  },
+  {
+    "lat": 23.49343,
+    "lng": 90.95355,
+    "download_mbps": 71.2,
+    "created_at": "2026-05-30T14:53:00Z"
+  },
+  {
+    "lat": 23.08493,
+    "lng": 90.72964,
+    "download_mbps": 91.7,
+    "created_at": "2026-05-30T14:10:00Z"
+  },
+  {
+    "lat": 23.69126,
+    "lng": 91.02402,
+    "download_mbps": 34.1,
+    "created_at": "2026-05-30T11:56:00Z"
+  },
+  {
+    "lat": 23.29923,
+    "lng": 91.03584,
+    "download_mbps": 63.1,
+    "created_at": "2026-05-30T11:18:00Z"
+  },
+  {
+    "lat": 23.72518,
+    "lng": 90.92244,
+    "download_mbps": 28.3,
+    "created_at": "2026-05-30T09:41:00Z"
+  },
+  {
+    "lat": 23.49331,
+    "lng": 90.63427,
+    "download_mbps": 83.7,
+    "created_at": "2026-05-30T06:10:00Z"
+  },
+  {
+    "lat": 23.76614,
+    "lng": 90.87577,
+    "download_mbps": 62.2,
+    "created_at": "2026-05-30T04:55:00Z"
+  },
+  {
+    "lat": 23.79385,
+    "lng": 91.35678,
+    "download_mbps": 31.4,
+    "created_at": "2026-05-30T04:25:00Z"
+  },
+  {
+    "lat": 23.3119,
+    "lng": 90.90303,
+    "download_mbps": 92.6,
+    "created_at": "2026-05-30T01:24:00Z"
+  },
+  {
+    "lat": 23.26359,
+    "lng": 91.03758,
+    "download_mbps": 42.2,
+    "created_at": "2026-05-30T00:06:00Z"
+  },
+  {
+    "lat": 23.14421,
+    "lng": 90.75587,
+    "download_mbps": 44.3,
+    "created_at": "2026-05-29T21:13:00Z"
+  },
+  {
+    "lat": 23.77052,
+    "lng": 91.0572,
+    "download_mbps": 92.5,
+    "created_at": "2026-05-29T19:29:00Z"
+  },
+  {
+    "lat": 23.191,
+    "lng": 90.90417,
+    "download_mbps": 74.6,
+    "created_at": "2026-05-29T17:58:00Z"
+  },
+  {
+    "lat": 23.76398,
+    "lng": 91.01549,
+    "download_mbps": 44.1,
+    "created_at": "2026-05-29T17:13:00Z"
+  },
+  {
+    "lat": 23.08529,
+    "lng": 91.04545,
+    "download_mbps": 60.8,
+    "created_at": "2026-05-29T13:46:00Z"
+  },
+  {
+    "lat": 23.5859,
+    "lng": 91.11701,
+    "download_mbps": 63.1,
+    "created_at": "2026-05-29T11:03:00Z"
+  },
+  {
+    "lat": 23.45785,
+    "lng": 90.76387,
+    "download_mbps": 80.3,
+    "created_at": "2026-05-29T08:23:00Z"
+  },
+  {
+    "lat": 23.46472,
+    "lng": 90.71226,
+    "download_mbps": 40.2,
+    "created_at": "2026-05-29T07:59:00Z"
+  },
+  {
+    "lat": 23.09612,
+    "lng": 90.88186,
+    "download_mbps": 84.8,
+    "created_at": "2026-05-29T06:58:00Z"
+  },
+  {
+    "lat": 23.46118,
+    "lng": 90.98701,
+    "download_mbps": 30.6,
+    "created_at": "2026-05-29T04:16:00Z"
+  },
+  {
+    "lat": 23.68184,
+    "lng": 90.89674,
+    "download_mbps": 92,
+    "created_at": "2026-05-29T03:16:00Z"
+  },
+  {
+    "lat": 23.59373,
+    "lng": 90.75111,
+    "download_mbps": 73.5,
+    "created_at": "2026-05-29T01:36:00Z"
+  },
+  {
+    "lat": 23.2427,
+    "lng": 90.88386,
+    "download_mbps": 67.8,
+    "created_at": "2026-05-28T21:36:00Z"
+  },
+  {
+    "lat": 23.62355,
+    "lng": 91.23013,
+    "download_mbps": 44.3,
+    "created_at": "2026-05-28T19:33:00Z"
+  },
+  {
+    "lat": 23.2873,
+    "lng": 91.36526,
+    "download_mbps": 60.2,
+    "created_at": "2026-05-28T17:35:00Z"
+  },
+  {
+    "lat": 23.69872,
+    "lng": 90.45399,
+    "download_mbps": 119.1,
+    "created_at": "2026-05-28T15:20:00Z"
+  },
+  {
+    "lat": 24.00775,
+    "lng": 90.4326,
+    "download_mbps": 78.7,
+    "created_at": "2026-05-28T12:50:00Z"
+  },
+  {
+    "lat": 24.0029,
+    "lng": 90.50596,
+    "download_mbps": 100.7,
+    "created_at": "2026-05-28T10:48:00Z"
+  },
+  {
+    "lat": 23.56522,
+    "lng": 90.05362,
+    "download_mbps": 70.4,
+    "created_at": "2026-05-28T08:51:00Z"
+  },
+  {
+    "lat": 23.98546,
+    "lng": 90.26351,
+    "download_mbps": 76,
+    "created_at": "2026-05-28T04:54:00Z"
+  },
+  {
+    "lat": 23.99794,
+    "lng": 90.2095,
+    "download_mbps": 107.2,
+    "created_at": "2026-05-28T04:25:00Z"
+  },
+  {
+    "lat": 23.60001,
+    "lng": 90.32836,
+    "download_mbps": 130.4,
+    "created_at": "2026-05-28T03:16:00Z"
+  },
+  {
+    "lat": 24.01378,
+    "lng": 90.44754,
+    "download_mbps": 71,
+    "created_at": "2026-05-28T00:42:00Z"
+  },
+  {
+    "lat": 23.91726,
+    "lng": 90.23955,
+    "download_mbps": 100.5,
+    "created_at": "2026-05-28T00:09:00Z"
+  },
+  {
+    "lat": 24.02433,
+    "lng": 90.42606,
+    "download_mbps": 80.5,
+    "created_at": "2026-05-27T21:53:00Z"
+  },
+  {
+    "lat": 23.97287,
+    "lng": 90.1932,
+    "download_mbps": 71.6,
+    "created_at": "2026-05-27T19:36:00Z"
+  },
+  {
+    "lat": 23.9846,
+    "lng": 90.3917,
+    "download_mbps": 86.5,
+    "created_at": "2026-05-27T16:54:00Z"
+  },
+  {
+    "lat": 23.86661,
+    "lng": 90.21112,
+    "download_mbps": 62.1,
+    "created_at": "2026-05-27T14:59:00Z"
+  },
+  {
+    "lat": 23.66253,
+    "lng": 90.1767,
+    "download_mbps": 117.9,
+    "created_at": "2026-05-27T14:05:00Z"
+  },
+  {
+    "lat": 23.59348,
+    "lng": 90.44182,
+    "download_mbps": 128.7,
+    "created_at": "2026-05-27T13:41:00Z"
+  },
+  {
+    "lat": 23.65285,
+    "lng": 90.37442,
+    "download_mbps": 113.5,
+    "created_at": "2026-05-27T12:48:00Z"
+  },
+  {
+    "lat": 23.66358,
+    "lng": 90.06891,
+    "download_mbps": 125.7,
+    "created_at": "2026-05-27T09:35:00Z"
+  },
+  {
+    "lat": 23.9231,
+    "lng": 90.08659,
+    "download_mbps": 131.8,
+    "created_at": "2026-05-27T08:48:00Z"
+  },
+  {
+    "lat": 23.53713,
+    "lng": 90.46249,
+    "download_mbps": 121,
+    "created_at": "2026-05-27T08:17:00Z"
+  },
+  {
+    "lat": 24.00672,
+    "lng": 90.23498,
+    "download_mbps": 56.7,
+    "created_at": "2026-05-27T05:17:00Z"
+  },
+  {
+    "lat": 23.53495,
+    "lng": 90.23003,
+    "download_mbps": 77.4,
+    "created_at": "2026-05-27T02:15:00Z"
+  },
+  {
+    "lat": 23.58308,
+    "lng": 90.44458,
+    "download_mbps": 101.7,
+    "created_at": "2026-05-27T00:42:00Z"
+  },
+  {
+    "lat": 23.6798,
+    "lng": 90.12205,
+    "download_mbps": 57.3,
+    "created_at": "2026-05-26T23:54:00Z"
+  },
+  {
+    "lat": 23.85451,
+    "lng": 90.32945,
+    "download_mbps": 115.6,
+    "created_at": "2026-05-26T20:45:00Z"
+  },
+  {
+    "lat": 23.71991,
+    "lng": 90.36157,
+    "download_mbps": 98.4,
+    "created_at": "2026-05-26T16:47:00Z"
+  },
+  {
+    "lat": 24.00759,
+    "lng": 90.1067,
+    "download_mbps": 129.4,
+    "created_at": "2026-05-26T15:24:00Z"
+  },
+  {
+    "lat": 23.5646,
+    "lng": 90.48515,
+    "download_mbps": 58.7,
+    "created_at": "2026-05-26T14:37:00Z"
+  },
+  {
+    "lat": 23.82895,
+    "lng": 90.08542,
+    "download_mbps": 55.9,
+    "created_at": "2026-05-26T11:50:00Z"
+  },
+  {
+    "lat": 23.57447,
+    "lng": 90.03731,
+    "download_mbps": 73.7,
+    "created_at": "2026-05-26T10:04:00Z"
+  },
+  {
+    "lat": 23.62483,
+    "lng": 90.48088,
+    "download_mbps": 110.8,
+    "created_at": "2026-05-26T08:11:00Z"
+  },
+  {
+    "lat": 23.9553,
+    "lng": 90.47958,
+    "download_mbps": 74.7,
+    "created_at": "2026-05-26T06:39:00Z"
+  },
+  {
+    "lat": 23.55538,
+    "lng": 90.25942,
+    "download_mbps": 122.6,
+    "created_at": "2026-05-26T04:11:00Z"
+  },
+  {
+    "lat": 23.54002,
+    "lng": 90.15828,
+    "download_mbps": 67.8,
+    "created_at": "2026-05-26T02:48:00Z"
+  },
+  {
+    "lat": 23.98748,
+    "lng": 90.01868,
+    "download_mbps": 122.6,
+    "created_at": "2026-05-25T23:55:00Z"
+  },
+  {
+    "lat": 23.8422,
+    "lng": 90.12988,
+    "download_mbps": 56.5,
+    "created_at": "2026-05-25T22:55:00Z"
+  },
+  {
+    "lat": 23.61166,
+    "lng": 90.4981,
+    "download_mbps": 106.5,
+    "created_at": "2026-05-25T20:26:00Z"
+  },
+  {
+    "lat": 24.00289,
+    "lng": 90.02284,
+    "download_mbps": 132,
+    "created_at": "2026-05-25T18:44:00Z"
+  },
+  {
+    "lat": 24.03766,
+    "lng": 90.26786,
+    "download_mbps": 131.3,
+    "created_at": "2026-05-25T14:57:00Z"
+  },
+  {
+    "lat": 23.70603,
+    "lng": 90.19373,
+    "download_mbps": 93.1,
+    "created_at": "2026-05-25T13:26:00Z"
+  },
+  {
+    "lat": 23.93365,
+    "lng": 90.08663,
+    "download_mbps": 104.2,
+    "created_at": "2026-05-25T09:36:00Z"
+  },
+  {
+    "lat": 23.70121,
+    "lng": 90.18049,
+    "download_mbps": 70.6,
+    "created_at": "2026-05-25T05:51:00Z"
+  },
+  {
+    "lat": 23.97153,
+    "lng": 90.49238,
+    "download_mbps": 90.5,
+    "created_at": "2026-05-25T04:59:00Z"
+  },
+  {
+    "lat": 23.56307,
+    "lng": 90.42782,
+    "download_mbps": 88.8,
+    "created_at": "2026-05-25T02:01:00Z"
+  },
+  {
+    "lat": 23.90931,
+    "lng": 90.07844,
+    "download_mbps": 71.2,
+    "created_at": "2026-05-24T23:43:00Z"
+  },
+  {
+    "lat": 23.8324,
+    "lng": 90.44732,
+    "download_mbps": 64.4,
+    "created_at": "2026-05-24T20:22:00Z"
+  },
+  {
+    "lat": 23.91594,
+    "lng": 90.35674,
+    "download_mbps": 64.9,
+    "created_at": "2026-05-24T17:38:00Z"
+  },
+  {
+    "lat": 23.78401,
+    "lng": 90.39151,
+    "download_mbps": 110.3,
+    "created_at": "2026-05-24T14:34:00Z"
+  },
+  {
+    "lat": 23.52686,
+    "lng": 90.4782,
+    "download_mbps": 75.3,
+    "created_at": "2026-05-24T13:06:00Z"
+  },
+  {
+    "lat": 23.62774,
+    "lng": 90.26505,
+    "download_mbps": 113.7,
+    "created_at": "2026-05-24T11:53:00Z"
+  },
+  {
+    "lat": 23.86837,
+    "lng": 90.09484,
+    "download_mbps": 129.9,
+    "created_at": "2026-05-24T08:14:00Z"
+  },
+  {
+    "lat": 23.68425,
+    "lng": 90.44594,
+    "download_mbps": 130.4,
+    "created_at": "2026-05-24T06:44:00Z"
+  },
+  {
+    "lat": 23.63792,
+    "lng": 90.45619,
+    "download_mbps": 56.2,
+    "created_at": "2026-05-24T03:19:00Z"
+  },
+  {
+    "lat": 23.61555,
+    "lng": 90.45387,
+    "download_mbps": 79.6,
+    "created_at": "2026-05-24T01:21:00Z"
+  },
+  {
+    "lat": 23.71745,
+    "lng": 90.47743,
+    "download_mbps": 106.4,
+    "created_at": "2026-05-23T22:01:00Z"
+  },
+  {
+    "lat": 23.95891,
+    "lng": 90.49186,
+    "download_mbps": 66.7,
+    "created_at": "2026-05-23T18:30:00Z"
+  },
+  {
+    "lat": 23.97617,
+    "lng": 90.35256,
+    "download_mbps": 86.8,
+    "created_at": "2026-05-23T17:54:00Z"
+  },
+  {
+    "lat": 23.92867,
+    "lng": 90.0181,
+    "download_mbps": 128,
+    "created_at": "2026-05-23T16:23:00Z"
+  },
+  {
+    "lat": 23.94063,
+    "lng": 90.36712,
+    "download_mbps": 91,
+    "created_at": "2026-05-23T14:49:00Z"
+  },
+  {
+    "lat": 23.8075,
+    "lng": 90.48335,
+    "download_mbps": 109.1,
+    "created_at": "2026-05-23T12:06:00Z"
+  },
+  {
+    "lat": 23.5881,
+    "lng": 90.23371,
+    "download_mbps": 102.8,
+    "created_at": "2026-05-23T10:21:00Z"
+  },
+  {
+    "lat": 23.9215,
+    "lng": 90.14504,
+    "download_mbps": 80.1,
+    "created_at": "2026-05-23T07:29:00Z"
+  },
+  {
+    "lat": 23.70451,
+    "lng": 90.50444,
+    "download_mbps": 105.3,
+    "created_at": "2026-05-23T04:29:00Z"
+  },
+  {
+    "lat": 23.70911,
+    "lng": 90.41706,
+    "download_mbps": 102.2,
+    "created_at": "2026-05-23T02:40:00Z"
+  },
+  {
+    "lat": 23.93626,
+    "lng": 90.26117,
+    "download_mbps": 69.5,
+    "created_at": "2026-05-23T00:12:00Z"
+  },
+  {
+    "lat": 23.54727,
+    "lng": 90.23929,
+    "download_mbps": 99.8,
+    "created_at": "2026-05-22T21:01:00Z"
+  },
+  {
+    "lat": 23.5935,
+    "lng": 90.23145,
+    "download_mbps": 114.7,
+    "created_at": "2026-05-22T17:28:00Z"
+  },
+  {
+    "lat": 24.03563,
+    "lng": 90.11445,
+    "download_mbps": 98.6,
+    "created_at": "2026-05-22T15:43:00Z"
+  },
+  {
+    "lat": 23.60521,
+    "lng": 90.47721,
+    "download_mbps": 109.8,
+    "created_at": "2026-05-22T12:36:00Z"
+  },
+  {
+    "lat": 23.70886,
+    "lng": 90.50206,
+    "download_mbps": 63.2,
+    "created_at": "2026-05-22T11:55:00Z"
+  },
+  {
+    "lat": 23.61606,
+    "lng": 90.27596,
+    "download_mbps": 117.9,
+    "created_at": "2026-05-22T10:16:00Z"
+  },
+  {
+    "lat": 23.6875,
+    "lng": 90.43202,
+    "download_mbps": 121.3,
+    "created_at": "2026-05-22T09:43:00Z"
+  },
+  {
+    "lat": 24.01989,
+    "lng": 90.07693,
+    "download_mbps": 71.5,
+    "created_at": "2026-05-22T08:52:00Z"
+  },
+  {
+    "lat": 23.6516,
+    "lng": 90.36824,
+    "download_mbps": 125.7,
+    "created_at": "2026-05-22T06:51:00Z"
+  },
+  {
+    "lat": 23.67532,
+    "lng": 90.10233,
+    "download_mbps": 66.9,
+    "created_at": "2026-05-22T04:45:00Z"
+  },
+  {
+    "lat": 23.58493,
+    "lng": 90.17318,
+    "download_mbps": 88.8,
+    "created_at": "2026-05-22T00:45:00Z"
+  },
+  {
+    "lat": 23.8785,
+    "lng": 90.18201,
+    "download_mbps": 120.3,
+    "created_at": "2026-05-21T21:28:00Z"
+  },
+  {
+    "lat": 23.98495,
+    "lng": 90.17089,
+    "download_mbps": 100.9,
+    "created_at": "2026-05-21T18:40:00Z"
+  },
+  {
+    "lat": 23.71605,
+    "lng": 90.04892,
+    "download_mbps": 91.2,
+    "created_at": "2026-05-21T16:22:00Z"
+  },
+  {
+    "lat": 23.812,
+    "lng": 90.26103,
+    "download_mbps": 86.9,
+    "created_at": "2026-05-21T12:41:00Z"
+  },
+  {
+    "lat": 23.95071,
+    "lng": 90.5083,
+    "download_mbps": 117.4,
+    "created_at": "2026-05-21T10:02:00Z"
+  },
+  {
+    "lat": 23.65281,
+    "lng": 90.47686,
+    "download_mbps": 77.3,
+    "created_at": "2026-05-21T07:23:00Z"
+  },
+  {
+    "lat": 23.75913,
+    "lng": 90.3877,
+    "download_mbps": 133.4,
+    "created_at": "2026-05-21T05:33:00Z"
+  },
+  {
+    "lat": 23.98364,
+    "lng": 90.0278,
+    "download_mbps": 128.8,
+    "created_at": "2026-05-21T02:49:00Z"
+  },
+  {
+    "lat": 23.53673,
+    "lng": 90.45805,
+    "download_mbps": 97.2,
+    "created_at": "2026-05-21T00:03:00Z"
+  },
+  {
+    "lat": 23.93221,
+    "lng": 90.03256,
+    "download_mbps": 126.4,
+    "created_at": "2026-05-20T21:08:00Z"
+  },
+  {
+    "lat": 23.97668,
+    "lng": 90.14645,
+    "download_mbps": 72,
+    "created_at": "2026-05-20T20:04:00Z"
+  },
+  {
+    "lat": 23.77111,
+    "lng": 90.42547,
+    "download_mbps": 70.2,
+    "created_at": "2026-05-20T16:10:00Z"
+  },
+  {
+    "lat": 23.82611,
+    "lng": 90.32877,
+    "download_mbps": 85.4,
+    "created_at": "2026-05-20T15:20:00Z"
+  },
+  {
+    "lat": 23.81372,
+    "lng": 90.3759,
+    "download_mbps": 90.4,
+    "created_at": "2026-05-20T14:32:00Z"
+  },
+  {
+    "lat": 23.65193,
+    "lng": 90.27339,
+    "download_mbps": 83.7,
+    "created_at": "2026-05-20T11:00:00Z"
+  },
+  {
+    "lat": 23.98593,
+    "lng": 90.44397,
+    "download_mbps": 125.2,
+    "created_at": "2026-05-20T08:09:00Z"
+  },
+  {
+    "lat": 23.60359,
+    "lng": 90.24137,
+    "download_mbps": 69.4,
+    "created_at": "2026-05-20T04:35:00Z"
+  },
+  {
+    "lat": 23.82135,
+    "lng": 90.44574,
+    "download_mbps": 117.1,
+    "created_at": "2026-05-20T03:57:00Z"
+  },
+  {
+    "lat": 23.84336,
+    "lng": 90.44909,
+    "download_mbps": 63.3,
+    "created_at": "2026-05-20T01:47:00Z"
+  },
+  {
+    "lat": 23.86488,
+    "lng": 90.34177,
+    "download_mbps": 100.8,
+    "created_at": "2026-05-19T23:27:00Z"
+  },
+  {
+    "lat": 23.59007,
+    "lng": 90.34873,
+    "download_mbps": 57,
+    "created_at": "2026-05-19T22:33:00Z"
+  },
+  {
+    "lat": 23.70685,
+    "lng": 90.23753,
+    "download_mbps": 127.7,
+    "created_at": "2026-05-19T20:26:00Z"
+  },
+  {
+    "lat": 24.04451,
+    "lng": 90.39914,
+    "download_mbps": 88.7,
+    "created_at": "2026-05-19T16:50:00Z"
+  },
+  {
+    "lat": 24.03764,
+    "lng": 90.37929,
+    "download_mbps": 73.5,
+    "created_at": "2026-05-19T15:32:00Z"
+  },
+  {
+    "lat": 23.9758,
+    "lng": 90.32165,
+    "download_mbps": 104.6,
+    "created_at": "2026-05-19T14:23:00Z"
+  },
+  {
+    "lat": 24.16756,
+    "lng": 90.38183,
+    "download_mbps": 59.2,
+    "created_at": "2026-05-19T11:05:00Z"
+  },
+  {
+    "lat": 24.23942,
+    "lng": 90.2045,
+    "download_mbps": 99.3,
+    "created_at": "2026-05-19T07:21:00Z"
+  },
+  {
+    "lat": 23.94554,
+    "lng": 90.53368,
+    "download_mbps": 75.3,
+    "created_at": "2026-05-19T05:25:00Z"
+  },
+  {
+    "lat": 24.1784,
+    "lng": 90.42093,
+    "download_mbps": 57.6,
+    "created_at": "2026-05-19T04:49:00Z"
+  },
+  {
+    "lat": 24.1099,
+    "lng": 90.57964,
+    "download_mbps": 120.5,
+    "created_at": "2026-05-19T00:57:00Z"
+  },
+  {
+    "lat": 24.26573,
+    "lng": 90.27117,
+    "download_mbps": 97.5,
+    "created_at": "2026-05-18T21:35:00Z"
+  },
+  {
+    "lat": 24.19362,
+    "lng": 90.23099,
+    "download_mbps": 97.7,
+    "created_at": "2026-05-18T18:45:00Z"
+  },
+  {
+    "lat": 23.85816,
+    "lng": 90.68694,
+    "download_mbps": 92.3,
+    "created_at": "2026-05-18T16:37:00Z"
+  },
+  {
+    "lat": 23.9071,
+    "lng": 90.66203,
+    "download_mbps": 104.6,
+    "created_at": "2026-05-18T15:28:00Z"
+  },
+  {
+    "lat": 23.94627,
+    "lng": 90.65872,
+    "download_mbps": 87.9,
+    "created_at": "2026-05-18T12:58:00Z"
+  },
+  {
+    "lat": 24.32234,
+    "lng": 90.65628,
+    "download_mbps": 116.9,
+    "created_at": "2026-05-18T11:10:00Z"
+  },
+  {
+    "lat": 23.97338,
+    "lng": 90.45785,
+    "download_mbps": 56.9,
+    "created_at": "2026-05-18T09:13:00Z"
+  },
+  {
+    "lat": 23.90385,
+    "lng": 90.49594,
+    "download_mbps": 117.7,
+    "created_at": "2026-05-18T05:53:00Z"
+  },
+  {
+    "lat": 23.94828,
+    "lng": 90.20425,
+    "download_mbps": 75,
+    "created_at": "2026-05-18T03:51:00Z"
+  },
+  {
+    "lat": 23.95489,
+    "lng": 90.28469,
+    "download_mbps": 97.5,
+    "created_at": "2026-05-18T02:05:00Z"
+  },
+  {
+    "lat": 24.26303,
+    "lng": 90.66765,
+    "download_mbps": 98,
+    "created_at": "2026-05-18T00:33:00Z"
+  },
+  {
+    "lat": 24.12069,
+    "lng": 90.37531,
+    "download_mbps": 81,
+    "created_at": "2026-05-17T22:24:00Z"
+  },
+  {
+    "lat": 24.22645,
+    "lng": 90.43882,
+    "download_mbps": 68.6,
+    "created_at": "2026-05-17T18:26:00Z"
+  },
+  {
+    "lat": 24.00115,
+    "lng": 90.21293,
+    "download_mbps": 74.2,
+    "created_at": "2026-05-17T16:03:00Z"
+  },
+  {
+    "lat": 24.18248,
+    "lng": 90.1566,
+    "download_mbps": 56.4,
+    "created_at": "2026-05-17T13:21:00Z"
+  },
+  {
+    "lat": 24.01371,
+    "lng": 90.642,
+    "download_mbps": 88.8,
+    "created_at": "2026-05-17T10:10:00Z"
+  },
+  {
+    "lat": 23.87924,
+    "lng": 90.54711,
+    "download_mbps": 83.2,
+    "created_at": "2026-05-17T09:10:00Z"
+  },
+  {
+    "lat": 24.33027,
+    "lng": 90.24027,
+    "download_mbps": 101.8,
+    "created_at": "2026-05-17T08:08:00Z"
+  },
+  {
+    "lat": 23.92822,
+    "lng": 90.23244,
+    "download_mbps": 91.5,
+    "created_at": "2026-05-17T07:26:00Z"
+  },
+  {
+    "lat": 24.13106,
+    "lng": 90.27923,
+    "download_mbps": 89.9,
+    "created_at": "2026-05-17T05:11:00Z"
+  },
+  {
+    "lat": 23.87646,
+    "lng": 90.22017,
+    "download_mbps": 61.2,
+    "created_at": "2026-05-17T03:22:00Z"
+  },
+  {
+    "lat": 23.96169,
+    "lng": 90.14876,
+    "download_mbps": 94.9,
+    "created_at": "2026-05-17T00:14:00Z"
+  },
+  {
+    "lat": 24.24749,
+    "lng": 90.32393,
+    "download_mbps": 101.5,
+    "created_at": "2026-05-16T23:28:00Z"
+  },
+  {
+    "lat": 24.05936,
+    "lng": 90.58366,
+    "download_mbps": 78.8,
+    "created_at": "2026-05-16T19:50:00Z"
+  },
+  {
+    "lat": 23.87169,
+    "lng": 90.60222,
+    "download_mbps": 60,
+    "created_at": "2026-05-16T18:38:00Z"
+  },
+  {
+    "lat": 24.13529,
+    "lng": 90.45195,
+    "download_mbps": 117.8,
+    "created_at": "2026-05-16T17:29:00Z"
+  },
+  {
+    "lat": 24.05926,
+    "lng": 90.46258,
+    "download_mbps": 56,
+    "created_at": "2026-05-16T15:01:00Z"
+  },
+  {
+    "lat": 24.22133,
+    "lng": 90.67196,
+    "download_mbps": 78.3,
+    "created_at": "2026-05-16T13:58:00Z"
+  },
+  {
+    "lat": 24.26401,
+    "lng": 90.69056,
+    "download_mbps": 73.8,
+    "created_at": "2026-05-16T12:01:00Z"
+  },
+  {
+    "lat": 24.25029,
+    "lng": 90.5125,
+    "download_mbps": 116.7,
+    "created_at": "2026-05-16T10:12:00Z"
+  },
+  {
+    "lat": 24.2876,
+    "lng": 90.40835,
+    "download_mbps": 89.4,
+    "created_at": "2026-05-16T08:51:00Z"
+  },
+  {
+    "lat": 24.0542,
+    "lng": 90.22662,
+    "download_mbps": 101.3,
+    "created_at": "2026-05-16T07:00:00Z"
+  },
+  {
+    "lat": 24.13333,
+    "lng": 90.65711,
+    "download_mbps": 109.6,
+    "created_at": "2026-05-16T05:23:00Z"
+  },
+  {
+    "lat": 23.94672,
+    "lng": 90.38553,
+    "download_mbps": 81.3,
+    "created_at": "2026-05-16T04:26:00Z"
+  },
+  {
+    "lat": 23.90159,
+    "lng": 90.521,
+    "download_mbps": 105.9,
+    "created_at": "2026-05-16T03:53:00Z"
+  },
+  {
+    "lat": 24.23421,
+    "lng": 90.52548,
+    "download_mbps": 82.8,
+    "created_at": "2026-05-16T02:54:00Z"
+  },
+  {
+    "lat": 24.18874,
+    "lng": 90.46646,
+    "download_mbps": 106.9,
+    "created_at": "2026-05-15T22:57:00Z"
+  },
+  {
+    "lat": 24.0664,
+    "lng": 90.21616,
+    "download_mbps": 104.6,
+    "created_at": "2026-05-15T20:06:00Z"
+  },
+  {
+    "lat": 23.87474,
+    "lng": 90.56956,
+    "download_mbps": 123.8,
+    "created_at": "2026-05-15T18:52:00Z"
+  },
+  {
+    "lat": 24.20821,
+    "lng": 90.66198,
+    "download_mbps": 120.9,
+    "created_at": "2026-05-15T15:11:00Z"
+  },
+  {
+    "lat": 24.16414,
+    "lng": 90.54585,
+    "download_mbps": 84.3,
+    "created_at": "2026-05-15T13:37:00Z"
+  },
+  {
+    "lat": 24.16934,
+    "lng": 90.43215,
+    "download_mbps": 116.8,
+    "created_at": "2026-05-15T12:15:00Z"
+  },
+  {
+    "lat": 24.24122,
+    "lng": 90.36038,
+    "download_mbps": 110.6,
+    "created_at": "2026-05-15T09:18:00Z"
+  },
+  {
+    "lat": 24.05323,
+    "lng": 90.43814,
+    "download_mbps": 88.9,
+    "created_at": "2026-05-15T05:53:00Z"
+  },
+  {
+    "lat": 24.15428,
+    "lng": 90.37952,
+    "download_mbps": 106.3,
+    "created_at": "2026-05-15T02:07:00Z"
+  },
+  {
+    "lat": 24.23962,
+    "lng": 90.45209,
+    "download_mbps": 67.2,
+    "created_at": "2026-05-15T00:32:00Z"
+  },
+  {
+    "lat": 24.0855,
+    "lng": 90.57017,
+    "download_mbps": 71,
+    "created_at": "2026-05-14T22:47:00Z"
+  },
+  {
+    "lat": 24.20966,
+    "lng": 90.5159,
+    "download_mbps": 94.2,
+    "created_at": "2026-05-14T20:26:00Z"
+  },
+  {
+    "lat": 24.17317,
+    "lng": 90.58398,
+    "download_mbps": 58.3,
+    "created_at": "2026-05-14T19:26:00Z"
+  },
+  {
+    "lat": 24.01907,
+    "lng": 90.35205,
+    "download_mbps": 97.5,
+    "created_at": "2026-05-14T15:52:00Z"
+  },
+  {
+    "lat": 23.87691,
+    "lng": 90.33172,
+    "download_mbps": 101.8,
+    "created_at": "2026-05-14T15:24:00Z"
+  },
+  {
+    "lat": 24.12384,
+    "lng": 90.70033,
+    "download_mbps": 99.9,
+    "created_at": "2026-05-14T13:59:00Z"
+  },
+  {
+    "lat": 23.91641,
+    "lng": 90.48763,
+    "download_mbps": 90.7,
+    "created_at": "2026-05-14T12:58:00Z"
+  },
+  {
+    "lat": 24.26881,
+    "lng": 90.54567,
+    "download_mbps": 83.5,
+    "created_at": "2026-05-14T12:23:00Z"
+  },
+  {
+    "lat": 23.85851,
+    "lng": 90.17517,
+    "download_mbps": 125.1,
+    "created_at": "2026-05-14T10:37:00Z"
+  },
+  {
+    "lat": 23.93857,
+    "lng": 90.66544,
+    "download_mbps": 73.1,
+    "created_at": "2026-05-14T07:24:00Z"
+  },
+  {
+    "lat": 24.13487,
+    "lng": 90.22213,
+    "download_mbps": 114.8,
+    "created_at": "2026-05-14T05:47:00Z"
+  },
+  {
+    "lat": 24.10658,
+    "lng": 90.65635,
+    "download_mbps": 102,
+    "created_at": "2026-05-14T01:59:00Z"
+  },
+  {
+    "lat": 23.89063,
+    "lng": 90.52633,
+    "download_mbps": 110,
+    "created_at": "2026-05-14T00:18:00Z"
+  },
+  {
+    "lat": 23.96992,
+    "lng": 90.29624,
+    "download_mbps": 110.1,
+    "created_at": "2026-05-13T22:24:00Z"
+  },
+  {
+    "lat": 24.07197,
+    "lng": 90.67323,
+    "download_mbps": 117.4,
+    "created_at": "2026-05-13T21:48:00Z"
+  },
+  {
+    "lat": 24.21405,
+    "lng": 90.51698,
+    "download_mbps": 81.3,
+    "created_at": "2026-05-13T18:50:00Z"
+  },
+  {
+    "lat": 24.16163,
+    "lng": 90.44809,
+    "download_mbps": 133.9,
+    "created_at": "2026-05-13T15:37:00Z"
+  },
+  {
+    "lat": 24.25355,
+    "lng": 90.55786,
+    "download_mbps": 97.2,
+    "created_at": "2026-05-13T14:48:00Z"
+  },
+  {
+    "lat": 24.00401,
+    "lng": 90.1975,
+    "download_mbps": 114.4,
+    "created_at": "2026-05-13T12:57:00Z"
+  },
+  {
+    "lat": 23.89626,
+    "lng": 90.2542,
+    "download_mbps": 108.7,
+    "created_at": "2026-05-13T10:17:00Z"
+  },
+  {
+    "lat": 24.22951,
+    "lng": 90.46694,
+    "download_mbps": 94.2,
+    "created_at": "2026-05-13T07:40:00Z"
+  },
+  {
+    "lat": 24.32595,
+    "lng": 90.61287,
+    "download_mbps": 133.8,
+    "created_at": "2026-05-13T06:24:00Z"
+  },
+  {
+    "lat": 24.32665,
+    "lng": 90.41066,
+    "download_mbps": 90.8,
+    "created_at": "2026-05-13T02:26:00Z"
+  },
+  {
+    "lat": 24.10286,
+    "lng": 90.54828,
+    "download_mbps": 81.5,
+    "created_at": "2026-05-13T00:52:00Z"
+  },
+  {
+    "lat": 23.89598,
+    "lng": 90.59263,
+    "download_mbps": 118,
+    "created_at": "2026-05-12T22:02:00Z"
+  },
+  {
+    "lat": 24.07128,
+    "lng": 90.34075,
+    "download_mbps": 115.1,
+    "created_at": "2026-05-12T21:41:00Z"
+  },
+  {
+    "lat": 24.24612,
+    "lng": 90.59053,
+    "download_mbps": 74.8,
+    "created_at": "2026-05-12T19:12:00Z"
+  },
+  {
+    "lat": 23.87627,
+    "lng": 90.34919,
+    "download_mbps": 93.1,
+    "created_at": "2026-05-12T15:56:00Z"
+  },
+  {
+    "lat": 24.23237,
+    "lng": 90.29523,
+    "download_mbps": 132.2,
+    "created_at": "2026-05-12T13:52:00Z"
+  },
+  {
+    "lat": 23.99176,
+    "lng": 90.51563,
+    "download_mbps": 133.8,
+    "created_at": "2026-05-12T10:32:00Z"
+  },
+  {
+    "lat": 24.2614,
+    "lng": 90.4218,
+    "download_mbps": 71.5,
+    "created_at": "2026-05-12T08:07:00Z"
+  },
+  {
+    "lat": 24.19193,
+    "lng": 90.62491,
+    "download_mbps": 129,
+    "created_at": "2026-05-12T05:33:00Z"
+  },
+  {
+    "lat": 23.999,
+    "lng": 90.48986,
+    "download_mbps": 120.6,
+    "created_at": "2026-05-12T01:49:00Z"
+  },
+  {
+    "lat": 24.24894,
+    "lng": 90.26332,
+    "download_mbps": 64,
+    "created_at": "2026-05-11T23:08:00Z"
+  },
+  {
+    "lat": 24.00287,
+    "lng": 90.26999,
+    "download_mbps": 80,
+    "created_at": "2026-05-11T20:42:00Z"
+  },
+  {
+    "lat": 23.87535,
+    "lng": 90.49183,
+    "download_mbps": 79.2,
+    "created_at": "2026-05-11T17:04:00Z"
+  },
+  {
+    "lat": 24.16586,
+    "lng": 90.60562,
+    "download_mbps": 131.3,
+    "created_at": "2026-05-11T13:52:00Z"
+  },
+  {
+    "lat": 24.23592,
+    "lng": 90.40672,
+    "download_mbps": 114.1,
+    "created_at": "2026-05-11T11:14:00Z"
+  },
+  {
+    "lat": 24.23052,
+    "lng": 90.36941,
+    "download_mbps": 58.7,
+    "created_at": "2026-05-11T10:36:00Z"
+  },
+  {
+    "lat": 23.94082,
+    "lng": 90.45478,
+    "download_mbps": 86.2,
+    "created_at": "2026-05-11T09:27:00Z"
+  },
+  {
+    "lat": 24.21917,
+    "lng": 90.57878,
+    "download_mbps": 111.8,
+    "created_at": "2026-05-11T05:30:00Z"
+  },
+  {
+    "lat": 24.2843,
+    "lng": 90.28456,
+    "download_mbps": 72.7,
+    "created_at": "2026-05-11T02:08:00Z"
+  },
+  {
+    "lat": 24.12156,
+    "lng": 90.65918,
+    "download_mbps": 102.1,
+    "created_at": "2026-05-11T01:47:00Z"
+  },
+  {
+    "lat": 24.07377,
+    "lng": 90.42059,
+    "download_mbps": 70,
+    "created_at": "2026-05-10T22:58:00Z"
+  },
+  {
+    "lat": 24.25062,
+    "lng": 90.59357,
+    "download_mbps": 81.1,
+    "created_at": "2026-05-10T19:25:00Z"
+  },
+  {
+    "lat": 24.17311,
+    "lng": 90.51177,
+    "download_mbps": 88,
+    "created_at": "2026-05-10T18:18:00Z"
+  },
+  {
+    "lat": 24.04278,
+    "lng": 90.31819,
+    "download_mbps": 92.7,
+    "created_at": "2026-05-10T17:44:00Z"
+  },
+  {
+    "lat": 24.29361,
+    "lng": 90.54727,
+    "download_mbps": 55.2,
+    "created_at": "2026-05-10T16:31:00Z"
+  },
+  {
+    "lat": 24.11754,
+    "lng": 90.26899,
+    "download_mbps": 64.8,
+    "created_at": "2026-05-10T13:57:00Z"
+  },
+  {
+    "lat": 24.23277,
+    "lng": 90.48163,
+    "download_mbps": 92.8,
+    "created_at": "2026-05-10T10:46:00Z"
+  },
+  {
+    "lat": 24.19482,
+    "lng": 90.55605,
+    "download_mbps": 61.4,
+    "created_at": "2026-05-10T07:05:00Z"
+  },
+  {
+    "lat": 24.13944,
+    "lng": 90.2453,
+    "download_mbps": 93.2,
+    "created_at": "2026-05-10T04:42:00Z"
+  },
+  {
+    "lat": 24.1001,
+    "lng": 90.68615,
+    "download_mbps": 93.6,
+    "created_at": "2026-05-10T04:13:00Z"
+  },
+  {
+    "lat": 24.19935,
+    "lng": 90.47908,
+    "download_mbps": 88.5,
+    "created_at": "2026-05-10T00:28:00Z"
+  },
+  {
+    "lat": 23.94648,
+    "lng": 90.41792,
+    "download_mbps": 80.5,
+    "created_at": "2026-05-09T21:34:00Z"
+  },
+  {
+    "lat": 24.22215,
+    "lng": 90.17191,
+    "download_mbps": 102.2,
+    "created_at": "2026-05-09T21:10:00Z"
+  },
+  {
+    "lat": 24.31728,
+    "lng": 90.27353,
+    "download_mbps": 76.9,
+    "created_at": "2026-05-09T20:33:00Z"
+  },
+  {
+    "lat": 23.94211,
+    "lng": 90.60761,
+    "download_mbps": 71.2,
+    "created_at": "2026-05-09T20:02:00Z"
+  },
+  {
+    "lat": 24.0772,
+    "lng": 90.65191,
+    "download_mbps": 59.6,
+    "created_at": "2026-05-09T16:36:00Z"
+  },
+  {
+    "lat": 24.07589,
+    "lng": 90.55823,
+    "download_mbps": 55.7,
+    "created_at": "2026-05-09T13:59:00Z"
+  },
+  {
+    "lat": 24.12581,
+    "lng": 90.46072,
+    "download_mbps": 74.5,
+    "created_at": "2026-05-09T13:28:00Z"
+  },
+  {
+    "lat": 24.16231,
+    "lng": 90.15606,
+    "download_mbps": 97.9,
+    "created_at": "2026-05-09T12:22:00Z"
+  },
+  {
+    "lat": 24.28722,
+    "lng": 90.7014,
+    "download_mbps": 103,
+    "created_at": "2026-05-09T08:52:00Z"
+  },
+  {
+    "lat": 23.89704,
+    "lng": 90.4916,
+    "download_mbps": 96.7,
+    "created_at": "2026-05-09T06:31:00Z"
+  },
+  {
+    "lat": 24.07782,
+    "lng": 90.23205,
+    "download_mbps": 70.7,
+    "created_at": "2026-05-09T02:34:00Z"
+  },
+  {
+    "lat": 24.13341,
+    "lng": 90.21408,
+    "download_mbps": 108.1,
+    "created_at": "2026-05-09T00:44:00Z"
+  },
+  {
+    "lat": 24.30868,
+    "lng": 90.47012,
+    "download_mbps": 119.9,
+    "created_at": "2026-05-08T22:36:00Z"
+  },
+  {
+    "lat": 24.12738,
+    "lng": 90.5516,
+    "download_mbps": 120.6,
+    "created_at": "2026-05-08T22:14:00Z"
+  },
+  {
+    "lat": 24.28616,
+    "lng": 90.36315,
+    "download_mbps": 69.9,
+    "created_at": "2026-05-08T19:23:00Z"
+  },
+  {
+    "lat": 24.25392,
+    "lng": 90.37929,
+    "download_mbps": 126.4,
+    "created_at": "2026-05-08T19:00:00Z"
+  },
+  {
+    "lat": 24.05441,
+    "lng": 90.43162,
+    "download_mbps": 68,
+    "created_at": "2026-05-08T15:39:00Z"
+  },
+  {
+    "lat": 24.12416,
+    "lng": 90.5714,
+    "download_mbps": 83.3,
+    "created_at": "2026-05-08T12:11:00Z"
+  },
+  {
+    "lat": 23.87058,
+    "lng": 90.17467,
+    "download_mbps": 93.2,
+    "created_at": "2026-05-08T09:47:00Z"
+  },
+  {
+    "lat": 24.33245,
+    "lng": 90.2659,
+    "download_mbps": 110.6,
+    "created_at": "2026-05-08T05:55:00Z"
+  },
+  {
+    "lat": 24.16834,
+    "lng": 90.38426,
+    "download_mbps": 82.5,
+    "created_at": "2026-05-08T03:41:00Z"
+  },
+  {
+    "lat": 24.24175,
+    "lng": 90.63207,
+    "download_mbps": 110.7,
+    "created_at": "2026-05-08T00:32:00Z"
+  },
+  {
+    "lat": 24.2592,
+    "lng": 90.5009,
+    "download_mbps": 91.2,
+    "created_at": "2026-05-07T23:39:00Z"
+  },
+  {
+    "lat": 24.05816,
+    "lng": 90.57118,
+    "download_mbps": 119.7,
+    "created_at": "2026-05-07T20:40:00Z"
+  },
+  {
+    "lat": 24.31318,
+    "lng": 90.55158,
+    "download_mbps": 132.5,
+    "created_at": "2026-05-07T18:58:00Z"
+  },
+  {
+    "lat": 24.28902,
+    "lng": 90.22182,
+    "download_mbps": 88.7,
+    "created_at": "2026-05-07T16:59:00Z"
+  },
+  {
+    "lat": 24.09165,
+    "lng": 90.19501,
+    "download_mbps": 82.9,
+    "created_at": "2026-05-07T14:42:00Z"
+  },
+  {
+    "lat": 24.22356,
+    "lng": 90.42927,
+    "download_mbps": 129.9,
+    "created_at": "2026-05-07T11:40:00Z"
+  },
+  {
+    "lat": 24.10163,
+    "lng": 90.42589,
+    "download_mbps": 84.9,
+    "created_at": "2026-05-07T10:15:00Z"
+  },
+  {
+    "lat": 23.9877,
+    "lng": 90.30068,
+    "download_mbps": 133.2,
+    "created_at": "2026-05-07T08:12:00Z"
+  },
+  {
+    "lat": 24.33306,
+    "lng": 90.29931,
+    "download_mbps": 114.4,
+    "created_at": "2026-05-07T05:32:00Z"
+  },
+  {
+    "lat": 24.30808,
+    "lng": 90.53157,
+    "download_mbps": 69.6,
+    "created_at": "2026-05-07T04:40:00Z"
+  },
+  {
+    "lat": 24.30716,
+    "lng": 90.6346,
+    "download_mbps": 122.9,
+    "created_at": "2026-05-07T02:25:00Z"
+  },
+  {
+    "lat": 23.77488,
+    "lng": 89.92079,
+    "download_mbps": 88,
+    "created_at": "2026-05-06T23:31:00Z"
+  },
+  {
+    "lat": 23.992,
+    "lng": 89.70575,
+    "download_mbps": 92.3,
+    "created_at": "2026-05-06T22:00:00Z"
+  },
+  {
+    "lat": 24.0148,
+    "lng": 90.0848,
+    "download_mbps": 37.4,
+    "created_at": "2026-05-06T18:59:00Z"
+  },
+  {
+    "lat": 23.67912,
+    "lng": 89.86543,
+    "download_mbps": 72.5,
+    "created_at": "2026-05-06T17:04:00Z"
+  },
+  {
+    "lat": 23.97861,
+    "lng": 90.0201,
+    "download_mbps": 93.8,
+    "created_at": "2026-05-06T14:45:00Z"
+  },
+  {
+    "lat": 23.94496,
+    "lng": 90.20662,
+    "download_mbps": 90.7,
+    "created_at": "2026-05-06T11:47:00Z"
+  },
+  {
+    "lat": 23.902,
+    "lng": 89.99901,
+    "download_mbps": 66.3,
+    "created_at": "2026-05-06T10:54:00Z"
+  },
+  {
+    "lat": 23.41308,
+    "lng": 90.33739,
+    "download_mbps": 60.1,
+    "created_at": "2026-05-06T10:06:00Z"
+  },
+  {
+    "lat": 23.55439,
+    "lng": 90.31687,
+    "download_mbps": 72.4,
+    "created_at": "2026-05-06T07:13:00Z"
+  },
+  {
+    "lat": 23.63076,
+    "lng": 90.35195,
+    "download_mbps": 72.5,
+    "created_at": "2026-05-06T06:02:00Z"
+  },
+  {
+    "lat": 23.44179,
+    "lng": 90.44286,
+    "download_mbps": 38.1,
+    "created_at": "2026-05-06T03:37:00Z"
+  },
+  {
+    "lat": 23.60325,
+    "lng": 90.5844,
+    "download_mbps": 77.8,
+    "created_at": "2026-05-06T02:12:00Z"
+  },
+  {
+    "lat": 23.66429,
+    "lng": 90.58695,
+    "download_mbps": 69.2,
+    "created_at": "2026-05-05T22:54:00Z"
+  },
+  {
+    "lat": 23.59964,
+    "lng": 90.60888,
+    "download_mbps": 40.2,
+    "created_at": "2026-05-05T20:56:00Z"
+  },
+  {
+    "lat": 23.60664,
+    "lng": 90.23714,
+    "download_mbps": 75.6,
+    "created_at": "2026-05-05T20:01:00Z"
+  },
+  {
+    "lat": 23.65463,
+    "lng": 90.58503,
+    "download_mbps": 68,
+    "created_at": "2026-05-05T19:25:00Z"
+  },
+  {
+    "lat": 23.58526,
+    "lng": 90.41562,
+    "download_mbps": 73.2,
+    "created_at": "2026-05-05T16:34:00Z"
+  },
+  {
+    "lat": 23.53244,
+    "lng": 90.49066,
+    "download_mbps": 57.2,
+    "created_at": "2026-05-05T15:10:00Z"
+  },
+  {
+    "lat": 23.51495,
+    "lng": 90.20973,
+    "download_mbps": 45.1,
+    "created_at": "2026-05-05T13:45:00Z"
+  },
+  {
+    "lat": 23.54104,
+    "lng": 90.20083,
+    "download_mbps": 74,
+    "created_at": "2026-05-05T13:11:00Z"
+  },
+  {
+    "lat": 23.49314,
+    "lng": 90.63555,
+    "download_mbps": 56.8,
+    "created_at": "2026-05-05T12:41:00Z"
+  },
+  {
+    "lat": 23.40768,
+    "lng": 90.67669,
+    "download_mbps": 69.9,
+    "created_at": "2026-05-05T09:50:00Z"
+  },
+  {
+    "lat": 23.65232,
+    "lng": 90.22707,
+    "download_mbps": 89.2,
+    "created_at": "2026-05-05T06:36:00Z"
+  },
+  {
+    "lat": 23.50886,
+    "lng": 90.36002,
+    "download_mbps": 39.2,
+    "created_at": "2026-05-05T05:12:00Z"
+  },
+  {
+    "lat": 23.42069,
+    "lng": 90.2851,
+    "download_mbps": 47.2,
+    "created_at": "2026-05-05T02:01:00Z"
+  },
+  {
+    "lat": 23.53718,
+    "lng": 90.38522,
+    "download_mbps": 72.2,
+    "created_at": "2026-05-05T01:38:00Z"
+  },
+  {
+    "lat": 23.3943,
+    "lng": 90.45518,
+    "download_mbps": 54.1,
+    "created_at": "2026-05-05T01:14:00Z"
+  },
+  {
+    "lat": 23.61417,
+    "lng": 90.54289,
+    "download_mbps": 37.2,
+    "created_at": "2026-05-04T22:42:00Z"
+  },
+  {
+    "lat": 23.5481,
+    "lng": 90.53139,
+    "download_mbps": 58.5,
+    "created_at": "2026-05-04T20:53:00Z"
+  },
+  {
+    "lat": 24.28434,
+    "lng": 90.32488,
+    "download_mbps": 46.4,
+    "created_at": "2026-05-04T17:24:00Z"
+  },
+  {
+    "lat": 24.87912,
+    "lng": 90.69155,
+    "download_mbps": 42.7,
+    "created_at": "2026-05-04T15:44:00Z"
+  },
+  {
+    "lat": 25.15308,
+    "lng": 90.30175,
+    "download_mbps": 92.6,
+    "created_at": "2026-05-04T15:24:00Z"
+  },
+  {
+    "lat": 24.46546,
+    "lng": 90.21644,
+    "download_mbps": 34.4,
+    "created_at": "2026-05-04T13:41:00Z"
+  },
+  {
+    "lat": 24.83417,
+    "lng": 90.33679,
+    "download_mbps": 40,
+    "created_at": "2026-05-04T10:02:00Z"
+  },
+  {
+    "lat": 24.69077,
+    "lng": 90.16901,
+    "download_mbps": 40.6,
+    "created_at": "2026-05-04T08:57:00Z"
+  },
+  {
+    "lat": 25.17532,
+    "lng": 90.08007,
+    "download_mbps": 50.9,
+    "created_at": "2026-05-04T07:22:00Z"
+  },
+  {
+    "lat": 24.34524,
+    "lng": 90.69812,
+    "download_mbps": 28.8,
+    "created_at": "2026-05-04T06:29:00Z"
+  },
+  {
+    "lat": 24.52685,
+    "lng": 90.54333,
+    "download_mbps": 51,
+    "created_at": "2026-05-04T04:56:00Z"
+  },
+  {
+    "lat": 24.63448,
+    "lng": 90.51068,
+    "download_mbps": 64.5,
+    "created_at": "2026-05-04T02:41:00Z"
+  },
+  {
+    "lat": 24.25293,
+    "lng": 90.45448,
+    "download_mbps": 45.2,
+    "created_at": "2026-05-04T02:19:00Z"
+  },
+  {
+    "lat": 24.37967,
+    "lng": 90.43709,
+    "download_mbps": 93.7,
+    "created_at": "2026-05-03T22:54:00Z"
+  },
+  {
+    "lat": 24.92229,
+    "lng": 90.24247,
+    "download_mbps": 34.8,
+    "created_at": "2026-05-03T20:08:00Z"
+  },
+  {
+    "lat": 25.1043,
+    "lng": 90.62586,
+    "download_mbps": 41.9,
+    "created_at": "2026-05-03T19:01:00Z"
+  },
+  {
+    "lat": 24.25618,
+    "lng": 90.33044,
+    "download_mbps": 67.5,
+    "created_at": "2026-05-03T17:58:00Z"
+  },
+  {
+    "lat": 24.94133,
+    "lng": 90.47173,
+    "download_mbps": 29.7,
+    "created_at": "2026-05-03T16:54:00Z"
+  },
+  {
+    "lat": 25.08147,
+    "lng": 90.78466,
+    "download_mbps": 85.3,
+    "created_at": "2026-05-03T13:48:00Z"
+  },
+  {
+    "lat": 24.34738,
+    "lng": 90.37735,
+    "download_mbps": 38.8,
+    "created_at": "2026-05-03T11:50:00Z"
+  },
+  {
+    "lat": 25.03539,
+    "lng": 90.07628,
+    "download_mbps": 48.9,
+    "created_at": "2026-05-03T09:44:00Z"
+  },
+  {
+    "lat": 25.07571,
+    "lng": 90.66544,
+    "download_mbps": 35.4,
+    "created_at": "2026-05-03T07:52:00Z"
+  },
+  {
+    "lat": 24.96087,
+    "lng": 90.25349,
+    "download_mbps": 77.1,
+    "created_at": "2026-05-03T05:01:00Z"
+  },
+  {
+    "lat": 24.51825,
+    "lng": 90.50539,
+    "download_mbps": 44.3,
+    "created_at": "2026-05-03T03:41:00Z"
+  },
+  {
+    "lat": 24.83404,
+    "lng": 90.18021,
+    "download_mbps": 42.4,
+    "created_at": "2026-05-03T01:27:00Z"
+  },
+  {
+    "lat": 24.38385,
+    "lng": 90.79725,
+    "download_mbps": 50.8,
+    "created_at": "2026-05-03T00:01:00Z"
+  },
+  {
+    "lat": 24.78734,
+    "lng": 90.6349,
+    "download_mbps": 61.1,
+    "created_at": "2026-05-02T21:14:00Z"
+  },
+  {
+    "lat": 23.72538,
+    "lng": 90.69095,
+    "download_mbps": 102.4,
+    "created_at": "2026-05-02T19:39:00Z"
+  },
+  {
+    "lat": 23.8163,
+    "lng": 90.68073,
+    "download_mbps": 102,
+    "created_at": "2026-05-02T18:17:00Z"
+  },
+  {
+    "lat": 23.60138,
+    "lng": 90.71521,
+    "download_mbps": 62.3,
+    "created_at": "2026-05-02T14:22:00Z"
+  },
+  {
+    "lat": 23.62134,
+    "lng": 90.66719,
+    "download_mbps": 84.7,
+    "created_at": "2026-05-02T10:35:00Z"
+  },
+  {
+    "lat": 23.86217,
+    "lng": 90.51793,
+    "download_mbps": 68.1,
+    "created_at": "2026-05-02T08:58:00Z"
+  },
+  {
+    "lat": 23.69241,
+    "lng": 90.56861,
+    "download_mbps": 86.8,
+    "created_at": "2026-05-02T07:53:00Z"
+  },
+  {
+    "lat": 23.58464,
+    "lng": 90.63669,
+    "download_mbps": 73.5,
+    "created_at": "2026-05-02T05:40:00Z"
+  },
+  {
+    "lat": 23.77777,
+    "lng": 90.44218,
+    "download_mbps": 68.6,
+    "created_at": "2026-05-02T03:59:00Z"
+  },
+  {
+    "lat": 23.57177,
+    "lng": 90.73319,
+    "download_mbps": 100.9,
+    "created_at": "2026-05-02T02:02:00Z"
+  },
+  {
+    "lat": 23.76298,
+    "lng": 90.68233,
+    "download_mbps": 124.5,
+    "created_at": "2026-05-02T01:33:00Z"
+  },
+  {
+    "lat": 23.77685,
+    "lng": 90.69051,
+    "download_mbps": 107.9,
+    "created_at": "2026-05-02T00:47:00Z"
+  },
+  {
+    "lat": 23.55347,
+    "lng": 90.70624,
+    "download_mbps": 72.1,
+    "created_at": "2026-05-01T22:58:00Z"
+  },
+  {
+    "lat": 23.6601,
+    "lng": 90.53889,
+    "download_mbps": 75.8,
+    "created_at": "2026-05-01T19:18:00Z"
+  },
+  {
+    "lat": 23.59766,
+    "lng": 90.46901,
+    "download_mbps": 66.9,
+    "created_at": "2026-05-01T16:41:00Z"
+  },
+  {
+    "lat": 23.69361,
+    "lng": 90.43463,
+    "download_mbps": 87.6,
+    "created_at": "2026-05-01T12:53:00Z"
+  },
+  {
+    "lat": 23.64806,
+    "lng": 90.59349,
+    "download_mbps": 88.7,
+    "created_at": "2026-05-01T09:13:00Z"
+  },
+  {
+    "lat": 23.80005,
+    "lng": 90.67587,
+    "download_mbps": 72.8,
+    "created_at": "2026-05-01T08:12:00Z"
+  },
+  {
+    "lat": 23.86988,
+    "lng": 90.63876,
+    "download_mbps": 82.7,
+    "created_at": "2026-05-01T05:32:00Z"
+  },
+  {
+    "lat": 23.85633,
+    "lng": 90.62435,
+    "download_mbps": 71.9,
+    "created_at": "2026-05-01T03:33:00Z"
+  },
+  {
+    "lat": 23.76252,
+    "lng": 90.43632,
+    "download_mbps": 90.4,
+    "created_at": "2026-05-01T01:00:00Z"
+  },
+  {
+    "lat": 23.57891,
+    "lng": 90.69917,
+    "download_mbps": 108.2,
+    "created_at": "2026-05-01T00:12:00Z"
+  },
+  {
+    "lat": 23.74119,
+    "lng": 90.59828,
+    "download_mbps": 98.5,
+    "created_at": "2026-04-30T20:58:00Z"
+  },
+  {
+    "lat": 23.64057,
+    "lng": 90.44429,
+    "download_mbps": 122,
+    "created_at": "2026-04-30T20:05:00Z"
+  },
+  {
+    "lat": 23.60898,
+    "lng": 90.56113,
+    "download_mbps": 70.8,
+    "created_at": "2026-04-30T16:14:00Z"
+  },
+  {
+    "lat": 23.77582,
+    "lng": 90.48197,
+    "download_mbps": 104.8,
+    "created_at": "2026-04-30T12:15:00Z"
+  },
+  {
+    "lat": 23.73455,
+    "lng": 90.5415,
+    "download_mbps": 98.5,
+    "created_at": "2026-04-30T08:16:00Z"
+  },
+  {
+    "lat": 23.57861,
+    "lng": 90.43223,
+    "download_mbps": 60.8,
+    "created_at": "2026-04-30T06:02:00Z"
+  },
+  {
+    "lat": 23.73383,
+    "lng": 90.71152,
+    "download_mbps": 132,
+    "created_at": "2026-04-30T05:10:00Z"
+  },
+  {
+    "lat": 23.55935,
+    "lng": 90.43676,
+    "download_mbps": 119.6,
+    "created_at": "2026-04-30T04:41:00Z"
+  },
+  {
+    "lat": 23.74829,
+    "lng": 90.53119,
+    "download_mbps": 63.9,
+    "created_at": "2026-04-30T02:33:00Z"
+  },
+  {
+    "lat": 23.87961,
+    "lng": 90.43615,
+    "download_mbps": 80.9,
+    "created_at": "2026-04-30T00:21:00Z"
+  },
+  {
+    "lat": 23.76009,
+    "lng": 90.70275,
+    "download_mbps": 123.9,
+    "created_at": "2026-04-29T23:28:00Z"
+  },
+  {
+    "lat": 23.83878,
+    "lng": 90.59353,
+    "download_mbps": 117.9,
+    "created_at": "2026-04-29T21:14:00Z"
+  },
+  {
+    "lat": 23.81147,
+    "lng": 90.67804,
+    "download_mbps": 116.9,
+    "created_at": "2026-04-29T18:57:00Z"
+  },
+  {
+    "lat": 23.63896,
+    "lng": 90.65328,
+    "download_mbps": 121.3,
+    "created_at": "2026-04-29T16:56:00Z"
+  },
+  {
+    "lat": 23.70675,
+    "lng": 90.5778,
+    "download_mbps": 104,
+    "created_at": "2026-04-29T15:36:00Z"
+  },
+  {
+    "lat": 23.53797,
+    "lng": 90.49438,
+    "download_mbps": 67.3,
+    "created_at": "2026-04-29T13:46:00Z"
+  },
+  {
+    "lat": 23.79861,
+    "lng": 90.5,
+    "download_mbps": 131.7,
+    "created_at": "2026-04-29T12:40:00Z"
+  },
+  {
+    "lat": 23.8609,
+    "lng": 90.53416,
+    "download_mbps": 101.9,
+    "created_at": "2026-04-29T09:18:00Z"
+  },
+  {
+    "lat": 23.67381,
+    "lng": 90.55642,
+    "download_mbps": 119.6,
+    "created_at": "2026-04-29T08:02:00Z"
+  },
+  {
+    "lat": 23.64083,
+    "lng": 90.65198,
+    "download_mbps": 69.9,
+    "created_at": "2026-04-29T07:24:00Z"
+  },
+  {
+    "lat": 23.72875,
+    "lng": 90.65373,
+    "download_mbps": 126.3,
+    "created_at": "2026-04-29T03:40:00Z"
+  },
+  {
+    "lat": 23.87915,
+    "lng": 90.61042,
+    "download_mbps": 108.5,
+    "created_at": "2026-04-29T00:44:00Z"
+  },
+  {
+    "lat": 23.7999,
+    "lng": 90.55209,
+    "download_mbps": 69.8,
+    "created_at": "2026-04-28T22:47:00Z"
+  },
+  {
+    "lat": 23.81109,
+    "lng": 90.55131,
+    "download_mbps": 57.2,
+    "created_at": "2026-04-28T19:50:00Z"
+  },
+  {
+    "lat": 23.67022,
+    "lng": 90.61911,
+    "download_mbps": 68.7,
+    "created_at": "2026-04-28T19:11:00Z"
+  },
+  {
+    "lat": 23.75823,
+    "lng": 90.69477,
+    "download_mbps": 115.2,
+    "created_at": "2026-04-28T17:22:00Z"
+  },
+  {
+    "lat": 23.74778,
+    "lng": 90.46012,
+    "download_mbps": 87.4,
+    "created_at": "2026-04-28T15:11:00Z"
+  },
+  {
+    "lat": 23.87117,
+    "lng": 90.65131,
+    "download_mbps": 93.5,
+    "created_at": "2026-04-28T12:03:00Z"
+  },
+  {
+    "lat": 23.6365,
+    "lng": 90.52332,
+    "download_mbps": 108.4,
+    "created_at": "2026-04-28T08:37:00Z"
+  },
+  {
+    "lat": 23.87319,
+    "lng": 90.67125,
+    "download_mbps": 59.8,
+    "created_at": "2026-04-28T06:22:00Z"
+  },
+  {
+    "lat": 23.79341,
+    "lng": 90.61574,
+    "download_mbps": 74.3,
+    "created_at": "2026-04-28T03:05:00Z"
+  },
+  {
+    "lat": 23.71839,
+    "lng": 90.70861,
+    "download_mbps": 125.6,
+    "created_at": "2026-04-27T23:46:00Z"
+  },
+  {
+    "lat": 23.64061,
+    "lng": 90.65256,
+    "download_mbps": 64.5,
+    "created_at": "2026-04-27T22:09:00Z"
+  },
+  {
+    "lat": 23.54866,
+    "lng": 90.46679,
+    "download_mbps": 106.9,
+    "created_at": "2026-04-27T18:58:00Z"
+  },
+  {
+    "lat": 23.76288,
+    "lng": 90.64147,
+    "download_mbps": 70.5,
+    "created_at": "2026-04-27T17:17:00Z"
+  },
+  {
+    "lat": 23.8013,
+    "lng": 90.48496,
+    "download_mbps": 122.2,
+    "created_at": "2026-04-27T13:49:00Z"
+  },
+  {
+    "lat": 23.62786,
+    "lng": 90.51407,
+    "download_mbps": 116,
+    "created_at": "2026-04-27T12:09:00Z"
+  },
+  {
+    "lat": 23.84872,
+    "lng": 90.56372,
+    "download_mbps": 65.1,
+    "created_at": "2026-04-27T08:33:00Z"
+  },
+  {
+    "lat": 23.64513,
+    "lng": 90.42932,
+    "download_mbps": 60.9,
+    "created_at": "2026-04-27T05:16:00Z"
+  },
+  {
+    "lat": 23.53952,
+    "lng": 90.59905,
+    "download_mbps": 101.6,
+    "created_at": "2026-04-27T04:27:00Z"
+  },
+  {
+    "lat": 23.70736,
+    "lng": 90.58953,
+    "download_mbps": 118.9,
+    "created_at": "2026-04-27T01:36:00Z"
+  },
+  {
+    "lat": 23.55382,
+    "lng": 90.66714,
+    "download_mbps": 59.6,
+    "created_at": "2026-04-26T23:07:00Z"
+  },
+  {
+    "lat": 23.78366,
+    "lng": 90.48425,
+    "download_mbps": 131.6,
+    "created_at": "2026-04-26T22:03:00Z"
+  },
+  {
+    "lat": 23.78205,
+    "lng": 90.46619,
+    "download_mbps": 84.3,
+    "created_at": "2026-04-26T18:22:00Z"
+  },
+  {
+    "lat": 23.76158,
+    "lng": 90.58292,
+    "download_mbps": 69,
+    "created_at": "2026-04-26T15:33:00Z"
+  },
+  {
+    "lat": 23.67496,
+    "lng": 90.65783,
+    "download_mbps": 78.7,
+    "created_at": "2026-04-26T12:31:00Z"
+  },
+  {
+    "lat": 23.79923,
+    "lng": 90.71046,
+    "download_mbps": 109.7,
+    "created_at": "2026-04-26T09:22:00Z"
+  },
+  {
+    "lat": 23.83319,
+    "lng": 90.56654,
+    "download_mbps": 59.8,
+    "created_at": "2026-04-26T08:45:00Z"
+  },
+  {
+    "lat": 23.60541,
+    "lng": 90.52941,
+    "download_mbps": 104.4,
+    "created_at": "2026-04-26T05:07:00Z"
+  },
+  {
+    "lat": 23.59296,
+    "lng": 90.61816,
+    "download_mbps": 109,
+    "created_at": "2026-04-26T01:25:00Z"
+  },
+  {
+    "lat": 23.77588,
+    "lng": 90.49235,
+    "download_mbps": 82.2,
+    "created_at": "2026-04-25T23:50:00Z"
+  },
+  {
+    "lat": 23.58232,
+    "lng": 90.429,
+    "download_mbps": 111.6,
+    "created_at": "2026-04-25T23:25:00Z"
+  },
+  {
+    "lat": 23.79112,
+    "lng": 90.43866,
+    "download_mbps": 132.4,
+    "created_at": "2026-04-25T22:15:00Z"
+  },
+  {
+    "lat": 23.83663,
+    "lng": 90.70783,
+    "download_mbps": 106.1,
+    "created_at": "2026-04-25T21:49:00Z"
+  },
+  {
+    "lat": 23.58805,
+    "lng": 90.47311,
+    "download_mbps": 93.6,
+    "created_at": "2026-04-25T20:01:00Z"
+  },
+  {
+    "lat": 23.71661,
+    "lng": 90.50911,
+    "download_mbps": 61.5,
+    "created_at": "2026-04-25T18:19:00Z"
+  },
+  {
+    "lat": 23.85793,
+    "lng": 90.54022,
+    "download_mbps": 119.1,
+    "created_at": "2026-04-25T15:11:00Z"
+  },
+  {
+    "lat": 23.71034,
+    "lng": 90.73484,
+    "download_mbps": 60,
+    "created_at": "2026-04-25T13:01:00Z"
+  },
+  {
+    "lat": 23.85655,
+    "lng": 90.47584,
+    "download_mbps": 85.8,
+    "created_at": "2026-04-25T10:37:00Z"
+  },
+  {
+    "lat": 23.75323,
+    "lng": 90.72169,
+    "download_mbps": 59,
+    "created_at": "2026-04-25T07:33:00Z"
+  },
+  {
+    "lat": 23.55568,
+    "lng": 90.5262,
+    "download_mbps": 113.7,
+    "created_at": "2026-04-25T04:45:00Z"
+  },
+  {
+    "lat": 23.7405,
+    "lng": 90.73481,
+    "download_mbps": 82.3,
+    "created_at": "2026-04-25T03:55:00Z"
+  },
+  {
+    "lat": 23.83064,
+    "lng": 90.57647,
+    "download_mbps": 60.4,
+    "created_at": "2026-04-25T01:20:00Z"
+  },
+  {
+    "lat": 23.59569,
+    "lng": 90.59315,
+    "download_mbps": 85.1,
+    "created_at": "2026-04-24T23:53:00Z"
+  },
+  {
+    "lat": 23.80596,
+    "lng": 90.6313,
+    "download_mbps": 79.2,
+    "created_at": "2026-04-24T21:38:00Z"
+  },
+  {
+    "lat": 23.67392,
+    "lng": 90.62744,
+    "download_mbps": 72.4,
+    "created_at": "2026-04-24T21:07:00Z"
+  },
+  {
+    "lat": 23.55239,
+    "lng": 90.61188,
+    "download_mbps": 113.6,
+    "created_at": "2026-04-24T20:14:00Z"
+  },
+  {
+    "lat": 23.76409,
+    "lng": 90.69022,
+    "download_mbps": 57.3,
+    "created_at": "2026-04-24T18:27:00Z"
+  },
+  {
+    "lat": 23.81153,
+    "lng": 90.57407,
+    "download_mbps": 76.8,
+    "created_at": "2026-04-24T17:14:00Z"
+  },
+  {
+    "lat": 23.5528,
+    "lng": 90.63722,
+    "download_mbps": 85.5,
+    "created_at": "2026-04-24T13:55:00Z"
+  },
+  {
+    "lat": 23.87209,
+    "lng": 90.71407,
+    "download_mbps": 130.3,
+    "created_at": "2026-04-24T12:13:00Z"
+  },
+  {
+    "lat": 23.7162,
+    "lng": 90.6298,
+    "download_mbps": 56.1,
+    "created_at": "2026-04-24T09:13:00Z"
+  },
+  {
+    "lat": 23.55451,
+    "lng": 90.5469,
+    "download_mbps": 107,
+    "created_at": "2026-04-24T07:21:00Z"
+  },
+  {
+    "lat": 23.71771,
+    "lng": 90.67658,
+    "download_mbps": 67,
+    "created_at": "2026-04-24T03:35:00Z"
+  },
+  {
+    "lat": 23.8397,
+    "lng": 90.59919,
+    "download_mbps": 70.6,
+    "created_at": "2026-04-23T23:51:00Z"
+  },
+  {
+    "lat": 23.71111,
+    "lng": 90.52907,
+    "download_mbps": 128.1,
+    "created_at": "2026-04-23T21:21:00Z"
+  },
+  {
+    "lat": 23.67431,
+    "lng": 90.67668,
+    "download_mbps": 134.4,
+    "created_at": "2026-04-23T18:47:00Z"
+  },
+  {
+    "lat": 23.84685,
+    "lng": 90.52314,
+    "download_mbps": 73.9,
+    "created_at": "2026-04-23T15:32:00Z"
+  },
+  {
+    "lat": 23.69103,
+    "lng": 90.4957,
+    "download_mbps": 103.1,
+    "created_at": "2026-04-23T15:08:00Z"
+  },
+  {
+    "lat": 23.73231,
+    "lng": 90.73326,
+    "download_mbps": 113,
+    "created_at": "2026-04-23T12:02:00Z"
+  },
+  {
+    "lat": 23.79333,
+    "lng": 90.72853,
+    "download_mbps": 133.3,
+    "created_at": "2026-04-23T08:58:00Z"
+  },
+  {
+    "lat": 23.76003,
+    "lng": 90.49958,
+    "download_mbps": 70.8,
+    "created_at": "2026-04-23T05:56:00Z"
+  },
+  {
+    "lat": 23.65106,
+    "lng": 90.72662,
+    "download_mbps": 92.6,
+    "created_at": "2026-04-23T05:11:00Z"
+  },
+  {
+    "lat": 23.60062,
+    "lng": 90.63761,
+    "download_mbps": 109.9,
+    "created_at": "2026-04-23T03:39:00Z"
+  },
+  {
+    "lat": 23.86993,
+    "lng": 90.69452,
+    "download_mbps": 80.4,
+    "created_at": "2026-04-23T01:35:00Z"
+  },
+  {
+    "lat": 23.57645,
+    "lng": 90.4579,
+    "download_mbps": 66.1,
+    "created_at": "2026-04-23T00:25:00Z"
+  },
+  {
+    "lat": 23.55682,
+    "lng": 90.46589,
+    "download_mbps": 130.6,
+    "created_at": "2026-04-22T23:59:00Z"
+  },
+  {
+    "lat": 23.85257,
+    "lng": 90.50695,
+    "download_mbps": 98.3,
+    "created_at": "2026-04-22T21:27:00Z"
+  },
+  {
+    "lat": 23.62805,
+    "lng": 90.52422,
+    "download_mbps": 62.1,
+    "created_at": "2026-04-22T17:50:00Z"
+  },
+  {
+    "lat": 23.68599,
+    "lng": 90.45957,
+    "download_mbps": 133.5,
+    "created_at": "2026-04-22T16:53:00Z"
+  },
+  {
+    "lat": 23.88367,
+    "lng": 90.57441,
+    "download_mbps": 75.9,
+    "created_at": "2026-04-22T15:15:00Z"
+  },
+  {
+    "lat": 23.61456,
+    "lng": 90.63562,
+    "download_mbps": 77,
+    "created_at": "2026-04-22T13:31:00Z"
+  },
+  {
+    "lat": 23.63506,
+    "lng": 90.54495,
+    "download_mbps": 59.7,
+    "created_at": "2026-04-22T10:04:00Z"
+  },
+  {
+    "lat": 23.75204,
+    "lng": 90.58615,
+    "download_mbps": 130.4,
+    "created_at": "2026-04-22T09:33:00Z"
+  },
+  {
+    "lat": 23.60859,
+    "lng": 90.5696,
+    "download_mbps": 68.5,
+    "created_at": "2026-04-22T08:55:00Z"
+  },
+  {
+    "lat": 23.77176,
+    "lng": 90.66135,
+    "download_mbps": 116.1,
+    "created_at": "2026-04-22T07:41:00Z"
+  },
+  {
+    "lat": 23.84867,
+    "lng": 90.4772,
+    "download_mbps": 104.1,
+    "created_at": "2026-04-22T05:42:00Z"
+  },
+  {
+    "lat": 23.62952,
+    "lng": 90.61027,
+    "download_mbps": 59,
+    "created_at": "2026-04-22T03:05:00Z"
+  },
+  {
+    "lat": 23.84676,
+    "lng": 90.56735,
+    "download_mbps": 78.4,
+    "created_at": "2026-04-22T02:04:00Z"
+  },
+  {
+    "lat": 23.71171,
+    "lng": 90.59176,
+    "download_mbps": 93.9,
+    "created_at": "2026-04-21T23:38:00Z"
+  },
+  {
+    "lat": 23.75401,
+    "lng": 90.64261,
+    "download_mbps": 68.8,
+    "created_at": "2026-04-21T20:44:00Z"
+  },
+  {
+    "lat": 23.63537,
+    "lng": 90.55821,
+    "download_mbps": 111.1,
+    "created_at": "2026-04-21T18:03:00Z"
+  },
+  {
+    "lat": 23.71782,
+    "lng": 90.59776,
+    "download_mbps": 106.5,
+    "created_at": "2026-04-21T16:54:00Z"
+  },
+  {
+    "lat": 23.86244,
+    "lng": 90.56237,
+    "download_mbps": 94.5,
+    "created_at": "2026-04-21T15:12:00Z"
+  },
+  {
+    "lat": 23.853,
+    "lng": 90.71579,
+    "download_mbps": 80.6,
+    "created_at": "2026-04-21T12:52:00Z"
+  },
+  {
+    "lat": 23.69616,
+    "lng": 90.55169,
+    "download_mbps": 83,
+    "created_at": "2026-04-21T11:14:00Z"
+  },
+  {
+    "lat": 23.66568,
+    "lng": 90.61277,
+    "download_mbps": 97.5,
+    "created_at": "2026-04-21T09:55:00Z"
+  },
+  {
+    "lat": 23.89139,
+    "lng": 90.43197,
+    "download_mbps": 104.2,
+    "created_at": "2026-04-21T06:24:00Z"
+  },
+  {
+    "lat": 23.76738,
+    "lng": 90.65631,
+    "download_mbps": 64.5,
+    "created_at": "2026-04-21T03:00:00Z"
+  },
+  {
+    "lat": 23.72971,
+    "lng": 90.69992,
+    "download_mbps": 129.3,
+    "created_at": "2026-04-21T00:20:00Z"
+  },
+  {
+    "lat": 23.62498,
+    "lng": 90.57256,
+    "download_mbps": 60,
+    "created_at": "2026-04-20T21:06:00Z"
+  },
+  {
+    "lat": 23.64471,
+    "lng": 90.44707,
+    "download_mbps": 105.8,
+    "created_at": "2026-04-20T17:12:00Z"
+  },
+  {
+    "lat": 23.89155,
+    "lng": 90.68782,
+    "download_mbps": 133.7,
+    "created_at": "2026-04-20T13:32:00Z"
+  },
+  {
+    "lat": 23.54806,
+    "lng": 90.46754,
+    "download_mbps": 96.4,
+    "created_at": "2026-04-20T11:13:00Z"
+  },
+  {
+    "lat": 23.60368,
+    "lng": 90.49866,
+    "download_mbps": 59.5,
+    "created_at": "2026-04-20T09:30:00Z"
+  },
+  {
+    "lat": 23.61004,
+    "lng": 90.54798,
+    "download_mbps": 112.1,
+    "created_at": "2026-04-20T05:36:00Z"
+  },
+  {
+    "lat": 23.83721,
+    "lng": 90.67676,
+    "download_mbps": 97.8,
+    "created_at": "2026-04-20T02:46:00Z"
+  },
+  {
+    "lat": 23.87046,
+    "lng": 90.6817,
+    "download_mbps": 94.3,
+    "created_at": "2026-04-20T01:06:00Z"
+  },
+  {
+    "lat": 23.54853,
+    "lng": 90.56381,
+    "download_mbps": 79.2,
+    "created_at": "2026-04-19T22:26:00Z"
+  },
+  {
+    "lat": 23.56813,
+    "lng": 90.72642,
+    "download_mbps": 69.9,
+    "created_at": "2026-04-19T21:09:00Z"
+  },
+  {
+    "lat": 23.64984,
+    "lng": 90.58376,
+    "download_mbps": 98.7,
+    "created_at": "2026-04-19T20:19:00Z"
+  },
+  {
+    "lat": 23.56906,
+    "lng": 90.58529,
+    "download_mbps": 115.5,
+    "created_at": "2026-04-19T18:03:00Z"
+  },
+  {
+    "lat": 23.80516,
+    "lng": 90.65357,
+    "download_mbps": 133.7,
+    "created_at": "2026-04-19T14:08:00Z"
+  },
+  {
+    "lat": 23.82718,
+    "lng": 90.56522,
+    "download_mbps": 92.5,
+    "created_at": "2026-04-19T13:17:00Z"
+  },
+  {
+    "lat": 23.73814,
+    "lng": 90.54079,
+    "download_mbps": 95.2,
+    "created_at": "2026-04-19T11:27:00Z"
+  },
+  {
+    "lat": 23.72452,
+    "lng": 90.44747,
+    "download_mbps": 93.4,
+    "created_at": "2026-04-19T08:37:00Z"
+  },
+  {
+    "lat": 23.88524,
+    "lng": 90.49539,
+    "download_mbps": 92.5,
+    "created_at": "2026-04-19T07:37:00Z"
+  },
+  {
+    "lat": 23.81899,
+    "lng": 90.47093,
+    "download_mbps": 134.1,
+    "created_at": "2026-04-19T05:44:00Z"
+  },
+  {
+    "lat": 23.86894,
+    "lng": 90.43391,
+    "download_mbps": 67.6,
+    "created_at": "2026-04-19T02:38:00Z"
+  },
+  {
+    "lat": 23.74926,
+    "lng": 90.5454,
+    "download_mbps": 134.7,
+    "created_at": "2026-04-19T00:50:00Z"
+  },
+  {
+    "lat": 23.59622,
+    "lng": 90.54836,
+    "download_mbps": 86.8,
+    "created_at": "2026-04-18T22:46:00Z"
+  },
+  {
+    "lat": 23.73595,
+    "lng": 90.58898,
+    "download_mbps": 101.8,
+    "created_at": "2026-04-18T19:32:00Z"
+  },
+  {
+    "lat": 23.74338,
+    "lng": 90.72871,
+    "download_mbps": 129.9,
+    "created_at": "2026-04-18T16:25:00Z"
+  },
+  {
+    "lat": 23.57054,
+    "lng": 90.4517,
+    "download_mbps": 60.2,
+    "created_at": "2026-04-18T15:26:00Z"
+  },
+  {
+    "lat": 23.86717,
+    "lng": 90.67571,
+    "download_mbps": 109,
+    "created_at": "2026-04-18T12:55:00Z"
+  },
+  {
+    "lat": 23.76717,
+    "lng": 90.45216,
+    "download_mbps": 87.9,
+    "created_at": "2026-04-18T11:33:00Z"
+  },
+  {
+    "lat": 23.64076,
+    "lng": 90.44485,
+    "download_mbps": 113.8,
+    "created_at": "2026-04-18T09:36:00Z"
+  },
+  {
+    "lat": 23.7146,
+    "lng": 90.62744,
+    "download_mbps": 55.6,
+    "created_at": "2026-04-18T06:43:00Z"
+  },
+  {
+    "lat": 23.98065,
+    "lng": 90.81022,
+    "download_mbps": 75.3,
+    "created_at": "2026-04-18T05:56:00Z"
+  },
+  {
+    "lat": 24.1803,
+    "lng": 90.81753,
+    "download_mbps": 61.7,
+    "created_at": "2026-04-18T02:52:00Z"
+  },
+  {
+    "lat": 23.76353,
+    "lng": 90.61868,
+    "download_mbps": 41.8,
+    "created_at": "2026-04-17T22:52:00Z"
+  },
+  {
+    "lat": 23.92362,
+    "lng": 90.97509,
+    "download_mbps": 29.2,
+    "created_at": "2026-04-17T20:49:00Z"
+  },
+  {
+    "lat": 24.22951,
+    "lng": 90.84058,
+    "download_mbps": 91.9,
+    "created_at": "2026-04-17T19:33:00Z"
+  },
+  {
+    "lat": 24.21599,
+    "lng": 90.65739,
+    "download_mbps": 29.1,
+    "created_at": "2026-04-17T16:25:00Z"
+  },
+  {
+    "lat": 23.99193,
+    "lng": 90.59029,
+    "download_mbps": 76.2,
+    "created_at": "2026-04-17T14:04:00Z"
+  },
+  {
+    "lat": 24.23585,
+    "lng": 90.72102,
+    "download_mbps": 84.3,
+    "created_at": "2026-04-17T12:10:00Z"
+  },
+  {
+    "lat": 24.14138,
+    "lng": 90.7314,
+    "download_mbps": 93.7,
+    "created_at": "2026-04-17T10:00:00Z"
+  },
+  {
+    "lat": 24.00578,
+    "lng": 90.81538,
+    "download_mbps": 53.8,
+    "created_at": "2026-04-17T06:08:00Z"
+  },
+  {
+    "lat": 23.96182,
+    "lng": 90.65911,
+    "download_mbps": 54.6,
+    "created_at": "2026-04-17T03:30:00Z"
+  },
+  {
+    "lat": 24.13979,
+    "lng": 90.92904,
+    "download_mbps": 73,
+    "created_at": "2026-04-17T01:47:00Z"
+  },
+  {
+    "lat": 23.79099,
+    "lng": 90.6915,
+    "download_mbps": 35.4,
+    "created_at": "2026-04-17T00:05:00Z"
+  },
+  {
+    "lat": 23.94912,
+    "lng": 90.86958,
+    "download_mbps": 33.1,
+    "created_at": "2026-04-16T21:37:00Z"
+  },
+  {
+    "lat": 24.14076,
+    "lng": 90.83293,
+    "download_mbps": 85.7,
+    "created_at": "2026-04-16T19:54:00Z"
+  },
+  {
+    "lat": 24.1309,
+    "lng": 90.98186,
+    "download_mbps": 33.3,
+    "created_at": "2026-04-16T19:19:00Z"
+  },
+  {
+    "lat": 23.92114,
+    "lng": 90.67918,
+    "download_mbps": 87.9,
+    "created_at": "2026-04-16T18:50:00Z"
+  },
+  {
+    "lat": 23.94225,
+    "lng": 90.68492,
+    "download_mbps": 89.7,
+    "created_at": "2026-04-16T16:02:00Z"
+  },
+  {
+    "lat": 24.0717,
+    "lng": 90.86136,
+    "download_mbps": 55.9,
+    "created_at": "2026-04-16T13:59:00Z"
+  },
+  {
+    "lat": 23.83219,
+    "lng": 90.97441,
+    "download_mbps": 39.6,
+    "created_at": "2026-04-16T11:15:00Z"
+  },
+  {
+    "lat": 24.31664,
+    "lng": 89.78217,
+    "download_mbps": 62.5,
+    "created_at": "2026-04-16T09:29:00Z"
+  },
+  {
+    "lat": 24.56875,
+    "lng": 90.28367,
+    "download_mbps": 75.2,
+    "created_at": "2026-04-16T06:56:00Z"
+  },
+  {
+    "lat": 24.30769,
+    "lng": 90.27722,
+    "download_mbps": 58.1,
+    "created_at": "2026-04-16T03:37:00Z"
+  },
+  {
+    "lat": 24.05207,
+    "lng": 90.26613,
+    "download_mbps": 89.1,
+    "created_at": "2026-04-16T02:40:00Z"
+  },
+  {
+    "lat": 24.12628,
+    "lng": 89.7825,
+    "download_mbps": 36.7,
+    "created_at": "2026-04-15T22:52:00Z"
+  },
+  {
+    "lat": 24.4844,
+    "lng": 90.23255,
+    "download_mbps": 48.8,
+    "created_at": "2026-04-15T21:05:00Z"
+  },
+  {
+    "lat": 24.31702,
+    "lng": 89.97676,
+    "download_mbps": 89.1,
+    "created_at": "2026-04-15T18:23:00Z"
+  },
+  {
+    "lat": 24.47013,
+    "lng": 90.10951,
+    "download_mbps": 69.3,
+    "created_at": "2026-04-15T14:33:00Z"
+  },
+  {
+    "lat": 24.15034,
+    "lng": 89.83394,
+    "download_mbps": 92.1,
+    "created_at": "2026-04-15T13:30:00Z"
+  },
+  {
+    "lat": 24.00623,
+    "lng": 90.13741,
+    "download_mbps": 59.4,
+    "created_at": "2026-04-15T11:55:00Z"
+  },
+  {
+    "lat": 24.19088,
+    "lng": 89.97039,
+    "download_mbps": 88.8,
+    "created_at": "2026-04-15T10:22:00Z"
+  },
+  {
+    "lat": 24.61606,
+    "lng": 90.05149,
+    "download_mbps": 51.5,
+    "created_at": "2026-04-15T09:06:00Z"
+  },
+  {
+    "lat": 24.45646,
+    "lng": 90.13034,
+    "download_mbps": 37.6,
+    "created_at": "2026-04-15T07:17:00Z"
+  },
+  {
+    "lat": 24.10262,
+    "lng": 89.99359,
+    "download_mbps": 41.5,
+    "created_at": "2026-04-15T06:30:00Z"
+  },
+  {
+    "lat": 24.40768,
+    "lng": 90.18018,
+    "download_mbps": 74.1,
+    "created_at": "2026-04-15T02:49:00Z"
+  },
+  {
+    "lat": 24.64402,
+    "lng": 89.86317,
+    "download_mbps": 81.8,
+    "created_at": "2026-04-15T01:05:00Z"
+  },
+  {
+    "lat": 24.40097,
+    "lng": 90.03599,
+    "download_mbps": 62.6,
+    "created_at": "2026-04-14T23:39:00Z"
+  },
+  {
+    "lat": 24.11563,
+    "lng": 89.78193,
+    "download_mbps": 52.1,
+    "created_at": "2026-04-14T22:43:00Z"
+  },
+  {
+    "lat": 24.66916,
+    "lng": 89.99957,
+    "download_mbps": 34.6,
+    "created_at": "2026-04-14T21:03:00Z"
+  },
+  {
+    "lat": 24.27083,
+    "lng": 89.99951,
+    "download_mbps": 89.9,
+    "created_at": "2026-04-14T19:16:00Z"
+  },
+  {
+    "lat": 24.2188,
+    "lng": 89.99388,
+    "download_mbps": 81.7,
+    "created_at": "2026-04-14T18:14:00Z"
+  },
+  {
+    "lat": 24.33125,
+    "lng": 90.20859,
+    "download_mbps": 36.4,
+    "created_at": "2026-04-14T17:26:00Z"
+  },
+  {
+    "lat": 24.60708,
+    "lng": 90.14607,
+    "download_mbps": 38.1,
+    "created_at": "2026-04-14T13:41:00Z"
+  },
+  {
+    "lat": 24.63995,
+    "lng": 89.89904,
+    "download_mbps": 66.5,
+    "created_at": "2026-04-14T10:49:00Z"
+  },
+  {
+    "lat": 24.13066,
+    "lng": 90.27867,
+    "download_mbps": 59.3,
+    "created_at": "2026-04-14T09:38:00Z"
+  },
+  {
+    "lat": 24.19406,
+    "lng": 89.85102,
+    "download_mbps": 80.1,
+    "created_at": "2026-04-14T05:49:00Z"
+  },
+  {
+    "lat": 24.50906,
+    "lng": 89.76669,
+    "download_mbps": 59.2,
+    "created_at": "2026-04-14T02:31:00Z"
+  },
+  {
+    "lat": 24.39835,
+    "lng": 89.88218,
+    "download_mbps": 64.6,
+    "created_at": "2026-04-13T23:47:00Z"
+  },
+  {
+    "lat": 24.25147,
+    "lng": 90.07458,
+    "download_mbps": 31.6,
+    "created_at": "2026-04-13T23:12:00Z"
+  },
+  {
+    "lat": 24.06212,
+    "lng": 90.09107,
+    "download_mbps": 51.1,
+    "created_at": "2026-04-13T21:42:00Z"
+  },
+  {
+    "lat": 24.62851,
+    "lng": 89.91996,
+    "download_mbps": 92.6,
+    "created_at": "2026-04-13T18:47:00Z"
+  },
+  {
+    "lat": 24.59026,
+    "lng": 89.9648,
+    "download_mbps": 50.2,
+    "created_at": "2026-04-13T17:39:00Z"
+  },
+  {
+    "lat": 24.57606,
+    "lng": 89.79844,
+    "download_mbps": 57.8,
+    "created_at": "2026-04-13T16:51:00Z"
+  },
+  {
+    "lat": 24.19069,
+    "lng": 89.80875,
+    "download_mbps": 62.2,
+    "created_at": "2026-04-13T15:16:00Z"
+  },
+  {
+    "lat": 24.76321,
+    "lng": 90.05803,
+    "download_mbps": 52.6,
+    "created_at": "2026-04-13T13:43:00Z"
+  }
+]
